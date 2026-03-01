@@ -1,4 +1,4 @@
-# Millix DAG Explorer v1.3
+# Millix DAG Explorer v1.3 WEB
 
 A comprehensive browser-based visualization tool for exploring the Millix cryptocurrency network in real-time. Features interactive DAG visualization, global peer network mapping with IP geolocation, live MLX/USD price tracking, and transaction monitoring with automatic fallbacks for seamless operation.
 
