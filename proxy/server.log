@@ -1,0 +1,2267 @@
+nohup: ignoring input
+✓ Loaded millix node credentials (node_id: 1H2YiFtH2d39yvtSggwH3LPF1s1w9KXoDz)
+✓ Connected to millix node API
+╔═══════════════════════════════════════════════════════╗
+║     Unified Millix Explorer Server                    ║
+╚═══════════════════════════════════════════════════════╝
+
+✓ Server running on: http://localhost:8080
+✓ Serving static files from: /home/zen/Documents/Octo-PROg/MLXExplorer/MLXExplorer-v1.2WEB
+✓ Proxying /api/* to: localhost:5500
+
+Routes:
+  /                         - Millix Explorer UI
+  /api/transactions/recent  - Recent transactions
+  /api/dag                  - DAG structure
+  /health                   - Server health check
+
+📂 Static files: HTML, CSS, JS, images, etc.
+🔌 API proxy: Automatic, no CORS issues!
+
+Press Ctrl+C to stop
+
+[2026-02-28T19:35:54.229Z] MLX price: $0.00000038 (-2.58%)
+[2026-02-28T19:36:08.549Z] GET /api/peers
+[2026-02-28T19:36:12.042Z] GET /api/stats
+[2026-02-28T19:36:12.043Z] GET /api/transactions/recent
+[2026-02-28T19:36:12.046Z] GET /api/peers
+[2026-02-28T19:36:12.054Z] GET /api/price
+Failed to geolocate 24.71.108.246: Unexpected end of JSON input
+Failed to geolocate 92.22.42.41: Unexpected end of JSON input
+Failed to geolocate 137.103.221.234: Unexpected end of JSON input
+Failed to geolocate 190.244.45.110: Unexpected end of JSON input
+Failed to geolocate 182.181.98.86: Unexpected end of JSON input
+Failed to geolocate 49.176.219.228: Unexpected end of JSON input
+Failed to geolocate node-00100.millix.com: Unexpected end of JSON input
+Failed to geolocate 73.188.93.222: Unexpected end of JSON input
+Failed to geolocate 62.138.14.218: Unexpected end of JSON input
+Failed to geolocate 184.15.195.106: Unexpected end of JSON input
+Failed to geolocate node-00035.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00060.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00073.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00068.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00095.millix.com: Unexpected end of JSON input
+Failed to geolocate 51.81.209.111: Unexpected end of JSON input
+Failed to geolocate 12.18.136.8: Unexpected end of JSON input
+Failed to geolocate node-00064.millix.com: Unexpected end of JSON input
+Failed to geolocate 12.18.136.8: Unexpected end of JSON input
+Failed to geolocate node-00057.millix.com: Unexpected end of JSON input
+Failed to geolocate 12.18.136.8: Unexpected end of JSON input
+Failed to geolocate 12.18.136.8: Unexpected end of JSON input
+Failed to geolocate node-00089.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00062.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00083.millix.com: Unexpected end of JSON input
+Failed to geolocate 107.206.240.88: Unexpected end of JSON input
+Failed to geolocate node-00067.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00043.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00099.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00071.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00063.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00059.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00091.millix.com: Unexpected end of JSON input
+Failed to geolocate 12.18.136.8: Unexpected end of JSON input
+Failed to geolocate node-00041.millix.com: Unexpected end of JSON input
+Failed to geolocate 12.18.136.8: Unexpected end of JSON input
+Failed to geolocate 50.82.166.74: Unexpected end of JSON input
+Failed to geolocate node-00084.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00086.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00076.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00085.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00046.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00078.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00034.millix.com: Unexpected end of JSON input
+Failed to geolocate 138.2.73.75: Unexpected end of JSON input
+Failed to geolocate node-00047.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00050.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00087.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00038.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00037.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00098.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00080.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00042.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00074.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00075.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00036.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00049.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00056.millix.com: Unexpected end of JSON input
+Failed to geolocate 39.61.101.94: Unexpected end of JSON input
+Failed to geolocate node-00094.millix.com: Unexpected end of JSON input
+Failed to geolocate 24.71.108.246: Unexpected end of JSON input
+Failed to geolocate node-00054.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00031.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00077.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00061.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00039.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00052.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00079.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00096.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00040.millix.com: Unexpected end of JSON input
+Failed to geolocate 92.22.42.41: Unexpected end of JSON input
+Failed to geolocate node-00072.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00069.millix.com: Unexpected end of JSON input
+Failed to geolocate 137.103.221.234: Unexpected end of JSON input
+Failed to geolocate 190.244.45.110: Unexpected end of JSON input
+Failed to geolocate node-00058.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00033.millix.com: Unexpected end of JSON input
+Failed to geolocate 182.181.98.86: Unexpected end of JSON input
+Failed to geolocate 49.176.219.228: Unexpected end of JSON input
+Failed to geolocate node-00055.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00088.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00100.millix.com: Unexpected end of JSON input
+Failed to geolocate 73.188.93.222: Unexpected end of JSON input
+Failed to geolocate node-00051.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00048.millix.com: Unexpected end of JSON input
+Failed to geolocate 62.138.14.218: Unexpected end of JSON input
+Failed to geolocate node-00066.millix.com: Unexpected end of JSON input
+Failed to geolocate 184.15.195.106: Unexpected end of JSON input
+Failed to geolocate node-00035.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00092.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00045.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00060.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00093.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00073.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00068.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00095.millix.com: Unexpected end of JSON input
+Failed to geolocate 51.81.209.111: Unexpected end of JSON input
+Failed to geolocate 12.18.136.8: Unexpected end of JSON input
+Failed to geolocate node-00064.millix.com: Unexpected end of JSON input
+Failed to geolocate 12.18.136.8: Unexpected end of JSON input
+Failed to geolocate node-00057.millix.com: Unexpected end of JSON input
+Failed to geolocate 12.18.136.8: Unexpected end of JSON input
+Failed to geolocate 12.18.136.8: Unexpected end of JSON input
+Failed to geolocate node-00089.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00062.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00083.millix.com: Unexpected end of JSON input
+Failed to geolocate 107.206.240.88: Unexpected end of JSON input
+Failed to geolocate node-00067.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00065.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00043.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00099.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00044.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00071.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00063.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00059.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00091.millix.com: Unexpected end of JSON input
+Failed to geolocate 12.18.136.8: Unexpected end of JSON input
+Failed to geolocate node-00041.millix.com: Unexpected end of JSON input
+Failed to geolocate 12.18.136.8: Unexpected end of JSON input
+Failed to geolocate 50.82.166.74: Unexpected end of JSON input
+Failed to geolocate node-00084.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00086.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00076.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00085.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00046.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00078.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00034.millix.com: Unexpected end of JSON input
+Failed to geolocate 138.2.73.75: Unexpected end of JSON input
+Failed to geolocate node-00047.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00050.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00087.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00038.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00037.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00098.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00080.millix.com: read ECONNRESET
+Failed to geolocate node-00070.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00090.millix.com: read ECONNRESET
+[2026-02-28T19:36:25.681Z] GET /api/stats
+[2026-02-28T19:36:25.684Z] GET /api/transactions/recent
+[2026-02-28T19:36:25.703Z] GET /api/price
+[2026-02-28T19:36:30.411Z] GET /
+[2026-02-28T19:36:30.475Z] GET /styles.css
+[2026-02-28T19:36:30.476Z] GET /millix-icon.png
+[2026-02-28T19:36:30.477Z] GET /js/config.js
+[2026-02-28T19:36:30.478Z] GET /js/live-data.js
+[2026-02-28T19:36:30.479Z] GET /js/api.js
+[2026-02-28T19:36:30.479Z] GET /js/visualization.js
+[2026-02-28T19:36:30.480Z] GET /js/transactions.js
+[2026-02-28T19:36:30.484Z] GET /js/network-stats.js
+[2026-02-28T19:36:30.484Z] GET /js/app.js
+[2026-02-28T19:36:30.526Z] GET /api/stats
+[2026-02-28T19:36:30.533Z] GET /millix-icon.png
+[2026-02-28T19:36:30.549Z] GET /api/price
+[2026-02-28T19:36:30.567Z] GET /api/transactions/recent
+[2026-02-28T19:36:30.667Z] GET /api/peers
+[2026-02-28T19:36:43.200Z] GET /api/price
+[2026-02-28T19:36:45.977Z] GET /api/stats
+[2026-02-28T19:36:46.020Z] GET /api/price
+[2026-02-28T19:36:46.027Z] GET /api/transactions/recent
+[2026-02-28T19:36:49.101Z] GET /api/dag
+[2026-02-28T19:36:53.926Z] MLX price: $0.00000038 (-2.58%)
+[2026-02-28T19:36:57.468Z] GET /api/peers
+[2026-02-28T19:37:01.924Z] GET /api/peers
+[2026-02-28T19:37:03.194Z] GET /api/price
+[2026-02-28T19:37:06.108Z] GET /api/peers
+Failed to geolocate 24.71.108.246: Unexpected end of JSON input
+Failed to geolocate 92.22.42.41: Unexpected end of JSON input
+Failed to geolocate 137.103.221.234: Unexpected end of JSON input
+Failed to geolocate 190.244.45.110: Unexpected end of JSON input
+Failed to geolocate 182.181.98.86: Unexpected end of JSON input
+Failed to geolocate 49.176.219.228: Unexpected end of JSON input
+Failed to geolocate node-00100.millix.com: Unexpected end of JSON input
+Failed to geolocate 73.188.93.222: Unexpected end of JSON input
+Failed to geolocate 62.138.14.218: Unexpected end of JSON input
+Failed to geolocate 184.15.195.106: Unexpected end of JSON input
+Failed to geolocate node-00035.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00060.millix.com: Unexpected end of JSON input
+[2026-02-28T19:37:09.546Z] GET /api/dag
+Failed to geolocate node-00056.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00056.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00094.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00094.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00053.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00054.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00054.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00097.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00031.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00031.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00077.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00077.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00061.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00061.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00039.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00039.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00052.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00052.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00079.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00079.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00096.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00096.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00040.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00040.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00072.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00072.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00069.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00058.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00033.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00055.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00088.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00051.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00048.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00066.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00092.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00045.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00093.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00065.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00044.millix.com: Unexpected end of JSON input
+Failed to geolocate 24.71.108.246: Unexpected end of JSON input
+Failed to geolocate node-00070.millix.com: Unexpected end of JSON input
+Failed to geolocate 92.22.42.41: Unexpected end of JSON input
+Failed to geolocate node-00090.millix.com: Unexpected end of JSON input
+Failed to geolocate 137.103.221.234: Unexpected end of JSON input
+Failed to geolocate node-00053.millix.com: Unexpected end of JSON input
+Failed to geolocate 190.244.45.110: Unexpected end of JSON input
+Failed to geolocate node-00097.millix.com: Unexpected end of JSON input
+Failed to geolocate 182.181.98.86: Unexpected end of JSON input
+Failed to geolocate 49.176.219.228: Unexpected end of JSON input
+Failed to geolocate node-00100.millix.com: Unexpected end of JSON input
+Failed to geolocate 73.188.93.222: Unexpected end of JSON input
+Failed to geolocate 62.138.14.218: Unexpected end of JSON input
+Failed to geolocate 184.15.195.106: Unexpected end of JSON input
+Failed to geolocate node-00035.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00060.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00056.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00094.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00054.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00031.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00077.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00061.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00039.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00052.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00069.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00058.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00033.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00055.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00088.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00051.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00048.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00066.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00092.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00079.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00096.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00040.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00072.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00069.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00058.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00033.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00055.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00088.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00045.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00051.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00093.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00048.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00065.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00066.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00044.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00092.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00070.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00045.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00093.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00090.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00065.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00053.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00044.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00097.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00070.millix.com: Unexpected end of JSON input
+[2026-02-28T19:37:13.958Z] GET /api/stats
+Failed to geolocate node-00090.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00053.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00097.millix.com: Unexpected end of JSON input
+[2026-02-28T19:37:14.086Z] GET /api/stats
+Failed to geolocate 24.71.108.246: Unexpected end of JSON input
+Failed to geolocate 24.71.108.246: Unexpected end of JSON input
+Failed to geolocate 92.22.42.41: Unexpected end of JSON input
+Failed to geolocate 92.22.42.41: Unexpected end of JSON input
+Failed to geolocate 137.103.221.234: Unexpected end of JSON input
+Failed to geolocate 137.103.221.234: Unexpected end of JSON input
+Failed to geolocate 190.244.45.110: Unexpected end of JSON input
+Failed to geolocate 182.181.98.86: Unexpected end of JSON input
+Failed to geolocate 49.176.219.228: Unexpected end of JSON input
+Failed to geolocate node-00100.millix.com: Unexpected end of JSON input
+Failed to geolocate 73.188.93.222: Unexpected end of JSON input
+Failed to geolocate 62.138.14.218: Unexpected end of JSON input
+Failed to geolocate 184.15.195.106: Unexpected end of JSON input
+Failed to geolocate 190.244.45.110: Unexpected end of JSON input
+Failed to geolocate 182.181.98.86: Unexpected end of JSON input
+Failed to geolocate 49.176.219.228: Unexpected end of JSON input
+Failed to geolocate node-00100.millix.com: Unexpected end of JSON input
+Failed to geolocate 73.188.93.222: Unexpected end of JSON input
+Failed to geolocate 62.138.14.218: Unexpected end of JSON input
+Failed to geolocate 184.15.195.106: Unexpected end of JSON input
+Failed to geolocate node-00035.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00060.millix.com: read ECONNRESET
+Failed to geolocate node-00035.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00060.millix.com: read ECONNRESET
+[2026-02-28T19:37:25.789Z] GET /api/peers
+[2026-02-28T19:37:28.509Z] GET /api/peers
+[2026-02-28T19:37:31.676Z] GET /api/peers
+[2026-02-28T19:37:34.108Z] GET /api/peers
+[2026-02-28T19:37:54.019Z] MLX price: $0.00000038 (-2.58%)
+Failed to geolocate node-00045.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00097.millix.com: Unexpected end of JSON input
+[2026-02-28T19:38:21.094Z] GET /
+[2026-02-28T19:38:21.097Z] GET /api/peers
+[2026-02-28T19:38:21.103Z] GET /api/stats
+[2026-02-28T19:38:21.116Z] GET /api/stats
+Failed to geolocate 73.188.93.222: Unexpected end of JSON input
+Failed to geolocate 73.188.93.222: Unexpected end of JSON input
+Failed to geolocate 62.138.14.218: Unexpected end of JSON input
+[2026-02-28T19:38:21.181Z] GET /styles.css
+Failed to geolocate 62.138.14.218: Unexpected end of JSON input
+Failed to geolocate 184.15.195.106: Unexpected end of JSON input
+[2026-02-28T19:38:21.183Z] GET /millix-icon.png
+[2026-02-28T19:38:21.184Z] GET /js/config.js
+[2026-02-28T19:38:21.186Z] GET /js/live-data.js
+[2026-02-28T19:38:21.186Z] GET /js/api.js
+[2026-02-28T19:38:21.186Z] GET /js/visualization.js
+[2026-02-28T19:38:21.187Z] GET /js/transactions.js
+[2026-02-28T19:38:21.196Z] GET /js/network-stats.js
+[2026-02-28T19:38:21.197Z] GET /js/app.js
+Failed to geolocate node-00035.millix.com: Unexpected end of JSON input
+Failed to geolocate 184.15.195.106: Unexpected end of JSON input
+Failed to geolocate node-00060.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00035.millix.com: Unexpected end of JSON input
+[2026-02-28T19:38:21.246Z] GET /api/stats
+[2026-02-28T19:38:21.257Z] GET /millix-icon.png
+[2026-02-28T19:38:21.265Z] GET /api/price
+[2026-02-28T19:38:21.276Z] GET /api/transactions/recent
+Failed to geolocate node-00097.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00060.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00097.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00097.millix.com: Unexpected end of JSON input
+[2026-02-28T19:38:21.371Z] GET /api/peers
+Failed to geolocate 73.188.93.222: Unexpected end of JSON input
+Failed to geolocate 62.138.14.218: Unexpected end of JSON input
+Failed to geolocate 184.15.195.106: Unexpected end of JSON input
+Failed to geolocate node-00035.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00060.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00097.millix.com: Unexpected end of JSON input
+[2026-02-28T19:38:21.581Z] GET /api/stats
+[2026-02-28T19:38:21.616Z] GET /api/stats
+[2026-02-28T19:38:21.721Z] GET /api/price
+Failed to geolocate 24.71.108.246: Unexpected end of JSON input
+Failed to geolocate 73.188.93.222: Unexpected end of JSON input
+Failed to geolocate 62.138.14.218: Unexpected end of JSON input
+Failed to geolocate 184.15.195.106: Unexpected end of JSON input
+Failed to geolocate node-00035.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00060.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00097.millix.com: Unexpected end of JSON input
+Failed to geolocate 24.71.108.246: Unexpected end of JSON input
+Failed to geolocate 73.188.93.222: Unexpected end of JSON input
+Failed to geolocate 62.138.14.218: Unexpected end of JSON input
+Failed to geolocate 184.15.195.106: Unexpected end of JSON input
+Failed to geolocate node-00035.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00060.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00097.millix.com: Unexpected end of JSON input
+Failed to geolocate 24.71.108.246: Unexpected end of JSON input
+Failed to geolocate 73.188.93.222: Unexpected end of JSON input
+Failed to geolocate 62.138.14.218: Unexpected end of JSON input
+Failed to geolocate 184.15.195.106: Unexpected end of JSON input
+Failed to geolocate node-00035.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00060.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00097.millix.com: Unexpected end of JSON input
+[2026-02-28T19:38:41.616Z] GET /api/stats
+[2026-02-28T19:38:41.617Z] GET /api/transactions/recent
+[2026-02-28T19:38:41.619Z] GET /api/peers
+[2026-02-28T19:38:41.636Z] GET /api/price
+Failed to geolocate 73.188.93.222: Unexpected end of JSON input
+Failed to geolocate 62.138.14.218: Unexpected end of JSON input
+Failed to geolocate 184.15.195.106: Unexpected end of JSON input
+Failed to geolocate node-00035.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00060.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00097.millix.com: Unexpected end of JSON input
+[2026-02-28T19:38:41.793Z] GET /api/stats
+[2026-02-28T19:38:53.926Z] MLX price: $0.00000038 (-2.58%)
+[2026-02-28T19:39:01.620Z] GET /api/stats
+[2026-02-28T19:39:01.624Z] GET /api/transactions/recent
+[2026-02-28T19:39:01.631Z] GET /api/peers
+[2026-02-28T19:39:01.667Z] GET /api/price
+Failed to geolocate 73.188.93.222: Unexpected end of JSON input
+Failed to geolocate 62.138.14.218: Unexpected end of JSON input
+Failed to geolocate 184.15.195.106: Unexpected end of JSON input
+Failed to geolocate node-00035.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00060.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00097.millix.com: Unexpected end of JSON input
+[2026-02-28T19:39:02.281Z] GET /api/stats
+[2026-02-28T19:39:09.213Z] GET /
+[2026-02-28T19:39:09.229Z] GET /styles.css
+[2026-02-28T19:39:09.229Z] GET /millix-icon.png
+[2026-02-28T19:39:09.237Z] GET /js/config.js
+[2026-02-28T19:39:09.237Z] GET /js/live-data.js
+[2026-02-28T19:39:09.237Z] GET /js/api.js
+[2026-02-28T19:39:09.238Z] GET /js/visualization.js
+[2026-02-28T19:39:09.238Z] GET /js/transactions.js
+[2026-02-28T19:39:09.238Z] GET /js/network-stats.js
+[2026-02-28T19:39:09.253Z] GET /js/app.js
+[2026-02-28T19:39:09.354Z] GET /api/stats
+[2026-02-28T19:39:09.364Z] GET /millix-icon.png
+[2026-02-28T19:39:09.379Z] GET /api/price
+[2026-02-28T19:39:09.383Z] GET /api/transactions/recent
+[2026-02-28T19:39:09.451Z] GET /api/peers
+Failed to geolocate 73.188.93.222: Unexpected end of JSON input
+Failed to geolocate 62.138.14.218: Unexpected end of JSON input
+Failed to geolocate 184.15.195.106: Unexpected end of JSON input
+Failed to geolocate node-00035.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00060.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00097.millix.com: Unexpected end of JSON input
+[2026-02-28T19:39:09.651Z] GET /api/stats
+[2026-02-28T19:39:09.759Z] GET /api/stats
+[2026-02-28T19:39:09.851Z] GET /api/price
+[2026-02-28T19:39:13.429Z] GET /api/peers
+Failed to geolocate 73.188.93.222: Unexpected end of JSON input
+Failed to geolocate 62.138.14.218: Unexpected end of JSON input
+Failed to geolocate 184.15.195.106: Unexpected end of JSON input
+Failed to geolocate node-00035.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00060.millix.com: Unexpected end of JSON input
+Failed to geolocate node-00097.millix.com: Unexpected end of JSON input
+[2026-02-28T19:39:13.592Z] GET /api/stats
+[2026-02-28T19:39:29.757Z] GET /api/stats
+[2026-02-28T19:39:29.758Z] GET /api/transactions/recent
+[2026-02-28T19:39:29.760Z] GET /api/peers
+[2026-02-28T19:39:29.772Z] GET /api/price
+[2026-02-28T19:39:30.208Z] GET /api/stats
+[2026-02-28T19:39:49.757Z] GET /api/stats
+[2026-02-28T19:39:49.759Z] GET /api/transactions/recent
+[2026-02-28T19:39:49.761Z] GET /api/peers
+[2026-02-28T19:39:49.781Z] GET /api/price
+[2026-02-28T19:39:49.781Z] GET /api/stats
+[2026-02-28T19:39:53.818Z] MLX price: $0.00000038 (-2.45%)
+[2026-02-28T19:40:09.762Z] GET /api/stats
+[2026-02-28T19:40:09.764Z] GET /api/transactions/recent
+[2026-02-28T19:40:09.768Z] GET /api/peers
+[2026-02-28T19:40:09.784Z] GET /api/price
+[2026-02-28T19:40:09.790Z] GET /api/stats
+[2026-02-28T19:40:18.095Z] GET /api/peers
+[2026-02-28T19:40:18.107Z] GET /api/stats
+[2026-02-28T19:40:21.179Z] GET /api/dag
+[2026-02-28T19:40:29.771Z] GET /api/stats
+[2026-02-28T19:40:29.772Z] GET /api/transactions/recent
+[2026-02-28T19:40:29.774Z] GET /api/dag
+[2026-02-28T19:40:29.877Z] GET /api/price
+[2026-02-28T19:40:45.165Z] GET /api/dag
+[2026-02-28T19:40:47.456Z] GET /api/price
+[2026-02-28T19:40:49.724Z] GET /api/dag
+[2026-02-28T19:40:49.758Z] GET /api/stats
+[2026-02-28T19:40:49.759Z] GET /api/transactions/recent
+[2026-02-28T19:40:49.774Z] GET /api/price
+[2026-02-28T19:40:49.798Z] GET /api/dag
+[2026-02-28T19:40:53.906Z] MLX price: $0.00000038 (-2.45%)
+[2026-02-28T19:41:09.758Z] GET /api/stats
+[2026-02-28T19:41:09.759Z] GET /api/transactions/recent
+[2026-02-28T19:41:09.760Z] GET /api/dag
+[2026-02-28T19:41:09.772Z] GET /api/price
+[2026-02-28T19:41:10.635Z] GET /api/dag
+[2026-02-28T19:41:16.492Z] GET /api/peers
+[2026-02-28T19:41:16.616Z] GET /api/stats
+[2026-02-28T19:41:22.479Z] GET /api/peers
+[2026-02-28T19:41:22.491Z] GET /api/stats
+[2026-02-28T19:41:29.757Z] GET /api/stats
+[2026-02-28T19:41:29.759Z] GET /api/transactions/recent
+[2026-02-28T19:41:29.760Z] GET /api/peers
+[2026-02-28T19:41:29.773Z] GET /api/price
+[2026-02-28T19:41:29.777Z] GET /api/stats
+[2026-02-28T19:41:49.759Z] GET /api/stats
+[2026-02-28T19:41:49.760Z] GET /api/transactions/recent
+[2026-02-28T19:41:49.762Z] GET /api/peers
+[2026-02-28T19:41:49.773Z] GET /api/price
+[2026-02-28T19:41:49.781Z] GET /api/stats
+[2026-02-28T19:41:53.923Z] MLX price: $0.00000038 (-2.45%)
+[2026-02-28T19:42:06.495Z] GET /api/peers
+[2026-02-28T19:42:06.511Z] GET /api/stats
+[2026-02-28T19:42:09.759Z] GET /api/stats
+[2026-02-28T19:42:09.761Z] GET /api/transactions/recent
+[2026-02-28T19:42:09.767Z] GET /api/peers
+[2026-02-28T19:42:09.830Z] GET /api/price
+[2026-02-28T19:42:09.844Z] GET /api/stats
+[2026-02-28T19:42:18.716Z] GET /api/peers
+[2026-02-28T19:42:18.727Z] GET /api/stats
+[2026-02-28T19:42:29.758Z] GET /api/stats
+[2026-02-28T19:42:29.759Z] GET /api/transactions/recent
+[2026-02-28T19:42:29.760Z] GET /api/peers
+[2026-02-28T19:42:29.775Z] GET /api/price
+[2026-02-28T19:42:29.778Z] GET /api/stats
+[2026-02-28T19:42:45.471Z] GET /api/peers
+[2026-02-28T19:42:45.496Z] GET /api/stats
+[2026-02-28T19:42:49.730Z] GET /api/peers
+[2026-02-28T19:42:49.746Z] GET /api/stats
+[2026-02-28T19:42:49.756Z] GET /api/stats
+[2026-02-28T19:42:49.757Z] GET /api/transactions/recent
+[2026-02-28T19:42:49.761Z] GET /api/peers
+[2026-02-28T19:42:49.804Z] GET /api/price
+[2026-02-28T19:42:49.804Z] GET /api/stats
+[2026-02-28T19:42:53.920Z] MLX price: $0.00000038 (-2.45%)
+[2026-02-28T19:42:54.528Z] GET /api/peers
+[2026-02-28T19:42:54.541Z] GET /api/stats
+[2026-02-28T19:43:10.030Z] GET /api/stats
+[2026-02-28T19:43:10.032Z] GET /api/transactions/recent
+[2026-02-28T19:43:10.033Z] GET /api/peers
+[2026-02-28T19:43:10.049Z] GET /api/price
+[2026-02-28T19:43:10.064Z] GET /api/stats
+[2026-02-28T19:43:29.757Z] GET /api/stats
+[2026-02-28T19:43:29.758Z] GET /api/transactions/recent
+[2026-02-28T19:43:29.759Z] GET /api/peers
+[2026-02-28T19:43:29.772Z] GET /api/price
+[2026-02-28T19:43:29.776Z] GET /api/stats
+[2026-02-28T19:43:49.758Z] GET /api/stats
+[2026-02-28T19:43:49.759Z] GET /api/transactions/recent
+[2026-02-28T19:43:49.760Z] GET /api/peers
+[2026-02-28T19:43:49.774Z] GET /api/price
+[2026-02-28T19:43:49.780Z] GET /api/stats
+[2026-02-28T19:43:53.957Z] MLX price: $0.00000038 (-1.69%)
+[2026-02-28T19:44:09.762Z] GET /api/stats
+[2026-02-28T19:44:09.765Z] GET /api/transactions/recent
+[2026-02-28T19:44:09.767Z] GET /api/peers
+[2026-02-28T19:44:09.785Z] GET /api/price
+[2026-02-28T19:44:09.793Z] GET /api/stats
+[2026-02-28T19:44:29.760Z] GET /api/stats
+[2026-02-28T19:44:29.761Z] GET /api/transactions/recent
+[2026-02-28T19:44:29.763Z] GET /api/peers
+[2026-02-28T19:44:29.794Z] GET /api/price
+[2026-02-28T19:44:29.795Z] GET /api/stats
+[2026-02-28T19:44:46.914Z] GET /api/peers
+[2026-02-28T19:44:46.928Z] GET /api/stats
+[2026-02-28T19:44:49.758Z] GET /api/stats
+[2026-02-28T19:44:49.758Z] GET /api/transactions/recent
+[2026-02-28T19:44:49.760Z] GET /api/peers
+[2026-02-28T19:44:49.765Z] GET /api/price
+[2026-02-28T19:44:49.775Z] GET /api/stats
+[2026-02-28T19:44:53.919Z] MLX price: $0.00000038 (-1.69%)
+[2026-02-28T19:45:04.635Z] GET /api/peers
+[2026-02-28T19:45:04.645Z] GET /api/stats
+[2026-02-28T19:45:09.758Z] GET /api/stats
+[2026-02-28T19:45:09.760Z] GET /api/transactions/recent
+[2026-02-28T19:45:09.762Z] GET /api/peers
+[2026-02-28T19:45:09.776Z] GET /api/price
+[2026-02-28T19:45:09.778Z] GET /api/stats
+[2026-02-28T19:45:29.763Z] GET /api/stats
+[2026-02-28T19:45:29.768Z] GET /api/transactions/recent
+[2026-02-28T19:45:29.775Z] GET /api/peers
+[2026-02-28T19:45:29.812Z] GET /api/price
+[2026-02-28T19:45:29.820Z] GET /api/stats
+[2026-02-28T19:45:31.676Z] GET /api/price
+[2026-02-28T19:45:49.761Z] GET /api/price
+[2026-02-28T19:45:53.909Z] MLX price: $0.00000038 (-1.69%)
+[2026-02-28T19:46:01.873Z] GET /api/stats
+[2026-02-28T19:46:01.885Z] GET /api/price
+[2026-02-28T19:46:01.888Z] GET /api/transactions/recent
+[2026-02-28T19:46:01.971Z] GET /api/peers
+[2026-02-28T19:46:01.988Z] GET /api/stats
+[2026-02-28T19:46:06.212Z] GET /api/peers
+[2026-02-28T19:46:06.224Z] GET /api/stats
+[2026-02-28T19:46:07.892Z] GET /api/peers
+[2026-02-28T19:46:07.905Z] GET /api/stats
+[2026-02-28T19:46:09.758Z] GET /api/stats
+[2026-02-28T19:46:09.758Z] GET /api/transactions/recent
+[2026-02-28T19:46:09.760Z] GET /api/peers
+[2026-02-28T19:46:09.765Z] GET /api/price
+[2026-02-28T19:46:09.778Z] GET /api/stats
+[2026-02-28T19:46:29.758Z] GET /api/stats
+[2026-02-28T19:46:29.759Z] GET /api/transactions/recent
+[2026-02-28T19:46:29.762Z] GET /api/peers
+[2026-02-28T19:46:29.780Z] GET /api/price
+[2026-02-28T19:46:29.786Z] GET /api/stats
+[2026-02-28T19:46:49.757Z] GET /api/stats
+[2026-02-28T19:46:49.758Z] GET /api/transactions/recent
+[2026-02-28T19:46:49.760Z] GET /api/peers
+[2026-02-28T19:46:49.771Z] GET /api/price
+[2026-02-28T19:46:49.778Z] GET /api/stats
+[2026-02-28T19:46:54.270Z] MLX price: $0.00000038 (-1.69%)
+[2026-02-28T19:47:09.760Z] GET /api/stats
+[2026-02-28T19:47:09.763Z] GET /api/transactions/recent
+[2026-02-28T19:47:09.766Z] GET /api/peers
+[2026-02-28T19:47:09.796Z] GET /api/price
+[2026-02-28T19:47:09.801Z] GET /api/stats
+[2026-02-28T19:47:14.049Z] GET /api/peers
+[2026-02-28T19:47:14.062Z] GET /api/stats
+[2026-02-28T19:47:23.427Z] GET /api/dag
+[2026-02-28T19:47:29.788Z] GET /api/stats
+[2026-02-28T19:47:29.790Z] GET /api/transactions/recent
+[2026-02-28T19:47:29.791Z] GET /api/dag
+[2026-02-28T19:47:29.838Z] GET /api/price
+[2026-02-28T19:47:33.360Z] GET /api/transaction/BbSx92BF9p7AmYxXXhfpeWquqpuoSFXFRqLBSBg9PgGM2Tzc5
+[2026-02-28T19:47:49.759Z] GET /api/stats
+[2026-02-28T19:47:49.760Z] GET /api/transactions/recent
+[2026-02-28T19:47:49.762Z] GET /api/dag
+[2026-02-28T19:47:49.775Z] GET /api/price
+[2026-02-28T19:47:50.020Z] GET /api/dag
+[2026-02-28T19:47:51.276Z] GET /api/peers
+[2026-02-28T19:47:51.344Z] GET /api/stats
+[2026-02-28T19:47:53.940Z] MLX price: $0.00000038 (-1.82%)
+[2026-02-28T19:48:09.766Z] GET /api/stats
+[2026-02-28T19:48:09.769Z] GET /api/transactions/recent
+[2026-02-28T19:48:09.775Z] GET /api/peers
+[2026-02-28T19:48:09.807Z] GET /api/stats
+[2026-02-28T19:48:09.808Z] GET /api/price
+[2026-02-28T19:48:29.758Z] GET /api/stats
+[2026-02-28T19:48:29.759Z] GET /api/transactions/recent
+[2026-02-28T19:48:29.761Z] GET /api/peers
+[2026-02-28T19:48:29.774Z] GET /api/price
+[2026-02-28T19:48:29.782Z] GET /api/stats
+[2026-02-28T19:48:49.758Z] GET /api/stats
+[2026-02-28T19:48:49.759Z] GET /api/transactions/recent
+[2026-02-28T19:48:49.761Z] GET /api/peers
+[2026-02-28T19:48:49.772Z] GET /api/price
+[2026-02-28T19:48:49.781Z] GET /api/stats
+[2026-02-28T19:48:54.059Z] MLX price: $0.00000038 (-1.82%)
+[2026-02-28T19:49:09.765Z] GET /api/stats
+[2026-02-28T19:49:09.769Z] GET /api/transactions/recent
+[2026-02-28T19:49:09.777Z] GET /api/peers
+[2026-02-28T19:49:09.804Z] GET /api/price
+[2026-02-28T19:49:09.816Z] GET /api/stats
+[2026-02-28T19:49:29.759Z] GET /api/stats
+[2026-02-28T19:49:29.761Z] GET /api/transactions/recent
+[2026-02-28T19:49:29.763Z] GET /api/peers
+[2026-02-28T19:49:29.779Z] GET /api/price
+[2026-02-28T19:49:29.788Z] GET /api/stats
+[2026-02-28T19:49:49.764Z] GET /api/stats
+[2026-02-28T19:49:49.765Z] GET /api/transactions/recent
+[2026-02-28T19:49:49.767Z] GET /api/peers
+[2026-02-28T19:49:49.783Z] GET /api/price
+[2026-02-28T19:49:49.787Z] GET /api/stats
+[2026-02-28T19:49:53.927Z] MLX price: $0.00000038 (-2.58%)
+[2026-02-28T19:50:09.758Z] GET /api/stats
+[2026-02-28T19:50:09.759Z] GET /api/transactions/recent
+[2026-02-28T19:50:09.761Z] GET /api/peers
+[2026-02-28T19:50:09.775Z] GET /api/price
+[2026-02-28T19:50:09.780Z] GET /api/stats
+[2026-02-28T19:50:29.759Z] GET /api/stats
+[2026-02-28T19:50:29.761Z] GET /api/transactions/recent
+[2026-02-28T19:50:29.762Z] GET /api/peers
+[2026-02-28T19:50:29.777Z] GET /api/price
+[2026-02-28T19:50:29.779Z] GET /api/stats
+[2026-02-28T19:50:49.760Z] GET /api/stats
+[2026-02-28T19:50:49.763Z] GET /api/transactions/recent
+[2026-02-28T19:50:49.765Z] GET /api/peers
+[2026-02-28T19:50:49.784Z] GET /api/price
+[2026-02-28T19:50:49.789Z] GET /api/stats
+[2026-02-28T19:50:53.960Z] MLX price: $0.00000038 (-2.58%)
+[2026-02-28T19:51:09.758Z] GET /api/stats
+[2026-02-28T19:51:09.759Z] GET /api/transactions/recent
+[2026-02-28T19:51:09.760Z] GET /api/peers
+[2026-02-28T19:51:09.778Z] GET /api/price
+[2026-02-28T19:51:09.779Z] GET /api/stats
+[2026-02-28T19:51:20.716Z] GET /
+[2026-02-28T19:51:20.732Z] GET /styles.css
+[2026-02-28T19:51:20.732Z] GET /millix-icon.png
+[2026-02-28T19:51:20.747Z] GET /js/config.js
+[2026-02-28T19:51:20.747Z] GET /js/live-data.js
+[2026-02-28T19:51:20.748Z] GET /js/api.js
+[2026-02-28T19:51:20.748Z] GET /js/visualization.js
+[2026-02-28T19:51:20.748Z] GET /js/transactions.js
+[2026-02-28T19:51:20.749Z] GET /js/network-stats.js
+[2026-02-28T19:51:20.754Z] GET /js/app.js
+[2026-02-28T19:51:20.845Z] GET /api/stats
+[2026-02-28T19:51:20.858Z] GET /millix-icon.png
+[2026-02-28T19:51:20.870Z] GET /api/price
+[2026-02-28T19:51:20.877Z] GET /api/transactions/recent
+[2026-02-28T19:51:20.956Z] GET /api/peers
+[2026-02-28T19:51:20.968Z] GET /api/stats
+[2026-02-28T19:51:20.983Z] GET /api/stats
+[2026-02-28T19:51:21.025Z] GET /api/price
+[2026-02-28T19:51:28.652Z] GET /api/dag
+[2026-02-28T19:51:33.929Z] GET /api/dag
+[2026-02-28T19:51:40.218Z] GET /api/peers
+[2026-02-28T19:51:40.281Z] GET /api/stats
+[2026-02-28T19:51:40.987Z] GET /api/stats
+[2026-02-28T19:51:40.987Z] GET /api/transactions/recent
+[2026-02-28T19:51:40.990Z] GET /api/peers
+[2026-02-28T19:51:40.997Z] GET /api/price
+[2026-02-28T19:51:41.010Z] GET /api/stats
+[2026-02-28T19:51:46.419Z] GET /api/peers
+[2026-02-28T19:51:46.430Z] GET /api/stats
+[2026-02-28T19:51:53.959Z] MLX price: $0.00000038 (-2.58%)
+[2026-02-28T19:52:00.632Z] GET /api/peers
+[2026-02-28T19:52:00.650Z] GET /api/stats
+[2026-02-28T19:52:00.992Z] GET /api/stats
+[2026-02-28T19:52:00.992Z] GET /api/transactions/recent
+[2026-02-28T19:52:00.995Z] GET /api/peers
+[2026-02-28T19:52:01.015Z] GET /api/price
+[2026-02-28T19:52:01.025Z] GET /api/stats
+[2026-02-28T19:52:10.246Z] GET /api/peers
+[2026-02-28T19:52:10.259Z] GET /api/stats
+[2026-02-28T19:52:16.451Z] GET /api/peers
+[2026-02-28T19:52:16.472Z] GET /api/stats
+[2026-02-28T19:52:20.989Z] GET /api/stats
+[2026-02-28T19:52:20.991Z] GET /api/transactions/recent
+[2026-02-28T19:52:20.992Z] GET /api/peers
+[2026-02-28T19:52:21.009Z] GET /api/price
+[2026-02-28T19:52:21.014Z] GET /api/stats
+[2026-02-28T19:52:38.419Z] GET /
+[2026-02-28T19:52:38.435Z] GET /styles.css
+[2026-02-28T19:52:38.436Z] GET /millix-icon.png
+[2026-02-28T19:52:38.442Z] GET /js/config.js
+[2026-02-28T19:52:38.442Z] GET /js/live-data.js
+[2026-02-28T19:52:38.443Z] GET /js/api.js
+[2026-02-28T19:52:38.443Z] GET /js/visualization.js
+[2026-02-28T19:52:38.443Z] GET /js/transactions.js
+[2026-02-28T19:52:38.443Z] GET /js/network-stats.js
+[2026-02-28T19:52:38.447Z] GET /js/app.js
+[2026-02-28T19:52:38.474Z] GET /api/stats
+[2026-02-28T19:52:38.477Z] GET /millix-icon.png
+[2026-02-28T19:52:38.490Z] GET /api/price
+[2026-02-28T19:52:38.494Z] GET /api/transactions/recent
+[2026-02-28T19:52:38.564Z] GET /api/peers
+[2026-02-28T19:52:38.573Z] GET /api/stats
+[2026-02-28T19:52:38.584Z] GET /api/stats
+[2026-02-28T19:52:38.591Z] GET /api/price
+[2026-02-28T19:52:40.479Z] GET /
+[2026-02-28T19:52:40.496Z] GET /styles.css
+[2026-02-28T19:52:40.496Z] GET /millix-icon.png
+[2026-02-28T19:52:40.500Z] GET /js/config.js
+[2026-02-28T19:52:40.500Z] GET /js/live-data.js
+[2026-02-28T19:52:40.500Z] GET /js/api.js
+[2026-02-28T19:52:40.500Z] GET /js/visualization.js
+[2026-02-28T19:52:40.501Z] GET /js/transactions.js
+[2026-02-28T19:52:40.501Z] GET /js/network-stats.js
+[2026-02-28T19:52:40.505Z] GET /js/app.js
+[2026-02-28T19:52:40.513Z] GET /api/stats
+[2026-02-28T19:52:40.516Z] GET /millix-icon.png
+[2026-02-28T19:52:40.526Z] GET /api/price
+[2026-02-28T19:52:40.528Z] GET /api/transactions/recent
+[2026-02-28T19:52:40.598Z] GET /api/peers
+[2026-02-28T19:52:40.607Z] GET /api/stats
+[2026-02-28T19:52:40.619Z] GET /api/stats
+[2026-02-28T19:52:40.627Z] GET /api/price
+[2026-02-28T19:52:54.251Z] MLX price: $0.00000038 (-2.58%)
+[2026-02-28T19:53:00.622Z] GET /api/stats
+[2026-02-28T19:53:00.623Z] GET /api/transactions/recent
+[2026-02-28T19:53:00.626Z] GET /api/peers
+[2026-02-28T19:53:00.647Z] GET /api/price
+[2026-02-28T19:53:00.649Z] GET /api/stats
+[2026-02-28T19:53:01.023Z] GET /api/peers
+[2026-02-28T19:53:01.038Z] GET /api/stats
+[2026-02-28T19:53:20.625Z] GET /api/stats
+[2026-02-28T19:53:20.627Z] GET /api/transactions/recent
+[2026-02-28T19:53:20.629Z] GET /api/peers
+[2026-02-28T19:53:20.646Z] GET /api/price
+[2026-02-28T19:53:20.651Z] GET /api/stats
+[2026-02-28T19:53:40.624Z] GET /api/stats
+[2026-02-28T19:53:40.627Z] GET /api/transactions/recent
+[2026-02-28T19:53:40.630Z] GET /api/peers
+[2026-02-28T19:53:40.647Z] GET /api/price
+[2026-02-28T19:53:40.648Z] GET /api/stats
+[2026-02-28T19:53:44.876Z] GET /api/peers
+[2026-02-28T19:53:44.912Z] GET /api/stats
+[2026-02-28T19:53:53.951Z] MLX price: $0.00000038 (-4.30%)
+[2026-02-28T19:54:00.622Z] GET /api/stats
+[2026-02-28T19:54:00.623Z] GET /api/transactions/recent
+[2026-02-28T19:54:00.624Z] GET /api/peers
+[2026-02-28T19:54:00.635Z] GET /api/price
+[2026-02-28T19:54:00.641Z] GET /api/stats
+[2026-02-28T19:54:20.622Z] GET /api/stats
+[2026-02-28T19:54:20.623Z] GET /api/transactions/recent
+[2026-02-28T19:54:20.624Z] GET /api/peers
+[2026-02-28T19:54:20.640Z] GET /api/price
+[2026-02-28T19:54:20.644Z] GET /api/stats
+[2026-02-28T19:54:40.621Z] GET /api/stats
+[2026-02-28T19:54:40.622Z] GET /api/transactions/recent
+[2026-02-28T19:54:40.624Z] GET /api/peers
+[2026-02-28T19:54:40.638Z] GET /api/price
+[2026-02-28T19:54:40.642Z] GET /api/stats
+[2026-02-28T19:54:53.935Z] MLX price: $0.00000038 (-4.30%)
+[2026-02-28T19:55:00.628Z] GET /api/stats
+[2026-02-28T19:55:00.633Z] GET /api/transactions/recent
+[2026-02-28T19:55:00.640Z] GET /api/peers
+[2026-02-28T19:55:00.674Z] GET /api/price
+[2026-02-28T19:55:00.682Z] GET /api/stats
+[2026-02-28T19:55:07.413Z] GET /api/peers
+[2026-02-28T19:55:07.425Z] GET /api/stats
+[2026-02-28T19:55:14.780Z] GET /api/peers
+[2026-02-28T19:55:14.791Z] GET /api/stats
+[2026-02-28T19:55:18.072Z] GET /api/dag
+[2026-02-28T19:55:20.659Z] GET /api/stats
+[2026-02-28T19:55:20.659Z] GET /api/transactions/recent
+[2026-02-28T19:55:20.662Z] GET /api/dag
+[2026-02-28T19:55:20.762Z] GET /api/price
+[2026-02-28T19:55:40.628Z] GET /api/stats
+[2026-02-28T19:55:40.635Z] GET /api/transactions/recent
+[2026-02-28T19:55:40.645Z] GET /api/dag
+[2026-02-28T19:55:40.673Z] GET /api/price
+[2026-02-28T19:55:53.966Z] MLX price: $0.00000038 (+1.48%)
+[2026-02-28T19:56:00.624Z] GET /api/stats
+[2026-02-28T19:56:00.626Z] GET /api/transactions/recent
+[2026-02-28T19:56:00.627Z] GET /api/dag
+[2026-02-28T19:56:00.647Z] GET /api/price
+[2026-02-28T19:56:20.625Z] GET /api/stats
+[2026-02-28T19:56:20.626Z] GET /api/transactions/recent
+[2026-02-28T19:56:20.628Z] GET /api/dag
+[2026-02-28T19:56:20.641Z] GET /api/price
+[2026-02-28T19:56:40.661Z] GET /api/stats
+[2026-02-28T19:56:40.664Z] GET /api/transactions/recent
+[2026-02-28T19:56:40.666Z] GET /api/dag
+[2026-02-28T19:56:40.797Z] GET /api/price
+[2026-02-28T19:56:53.865Z] MLX price: $0.00000038 (+1.48%)
+[2026-02-28T19:56:55.369Z] GET /api/transaction/D9Ke3N5xeL4i56m7WGnyHtJuGFUyTw2sSKsdF8CQHPHSXpbfW
+[2026-02-28T19:56:57.627Z] GET /api/transaction/DaFLbmBcgRgq2WVk4kwaANMFXU4JyEDst8i9YWawUoNLmLZ99
+[2026-02-28T19:57:00.627Z] GET /api/stats
+[2026-02-28T19:57:00.628Z] GET /api/transactions/recent
+[2026-02-28T19:57:00.635Z] GET /api/dag
+[2026-02-28T19:57:00.640Z] GET /api/price
+[2026-02-28T19:57:11.980Z] GET /api/price
+[2026-02-28T19:57:15.655Z] GET /api/peers
+[2026-02-28T19:57:15.699Z] GET /api/stats
+[2026-02-28T19:57:20.621Z] GET /api/stats
+[2026-02-28T19:57:20.622Z] GET /api/transactions/recent
+[2026-02-28T19:57:20.624Z] GET /api/peers
+[2026-02-28T19:57:20.641Z] GET /api/price
+[2026-02-28T19:57:20.659Z] GET /api/stats
+[2026-02-28T19:57:32.346Z] GET /api/peers
+[2026-02-28T19:57:32.390Z] GET /api/stats
+[2026-02-28T19:57:40.628Z] GET /api/stats
+[2026-02-28T19:57:40.632Z] GET /api/transactions/recent
+[2026-02-28T19:57:40.639Z] GET /api/peers
+[2026-02-28T19:57:40.671Z] GET /api/price
+[2026-02-28T19:57:40.679Z] GET /api/stats
+[2026-02-28T19:57:46.678Z] GET /api/peers
+[2026-02-28T19:57:46.715Z] GET /api/stats
+[2026-02-28T19:57:53.948Z] MLX price: $0.00000038 (-0.40%)
+[2026-02-28T19:58:00.621Z] GET /api/stats
+[2026-02-28T19:58:00.622Z] GET /api/transactions/recent
+[2026-02-28T19:58:00.624Z] GET /api/peers
+[2026-02-28T19:58:00.636Z] GET /api/price
+[2026-02-28T19:58:00.642Z] GET /api/stats
+[2026-02-28T19:58:20.622Z] GET /api/stats
+[2026-02-28T19:58:20.623Z] GET /api/transactions/recent
+[2026-02-28T19:58:20.625Z] GET /api/peers
+[2026-02-28T19:58:20.646Z] GET /api/price
+[2026-02-28T19:58:20.646Z] GET /api/stats
+[2026-02-28T19:58:40.627Z] GET /api/stats
+[2026-02-28T19:58:40.630Z] GET /api/transactions/recent
+[2026-02-28T19:58:40.636Z] GET /api/peers
+[2026-02-28T19:58:40.653Z] GET /api/price
+[2026-02-28T19:58:40.664Z] GET /api/stats
+[2026-02-28T19:58:54.278Z] MLX price: $0.00000038 (-0.40%)
+[2026-02-28T19:59:00.276Z] GET /api/price
+[2026-02-28T19:59:00.626Z] GET /api/price
+[2026-02-28T19:59:20.621Z] GET /api/price
+[2026-02-28T19:59:30.911Z] GET /api/stats
+[2026-02-28T19:59:30.925Z] GET /api/price
+[2026-02-28T19:59:30.931Z] GET /api/transactions/recent
+[2026-02-28T19:59:30.997Z] GET /api/peers
+[2026-02-28T19:59:31.013Z] GET /api/stats
+[2026-02-28T19:59:40.622Z] GET /api/stats
+[2026-02-28T19:59:40.623Z] GET /api/transactions/recent
+[2026-02-28T19:59:40.625Z] GET /api/peers
+[2026-02-28T19:59:40.640Z] GET /api/price
+[2026-02-28T19:59:40.645Z] GET /api/stats
+[2026-02-28T19:59:53.999Z] MLX price: $0.00000038 (-0.40%)
+[2026-02-28T20:00:01.040Z] GET /api/stats
+[2026-02-28T20:00:01.045Z] GET /api/transactions/recent
+[2026-02-28T20:00:01.051Z] GET /api/peers
+[2026-02-28T20:00:01.068Z] GET /api/price
+[2026-02-28T20:00:01.073Z] GET /api/stats
+[2026-02-28T20:00:21.065Z] GET /api/stats
+[2026-02-28T20:00:21.069Z] GET /api/transactions/recent
+[2026-02-28T20:00:21.075Z] GET /api/peers
+[2026-02-28T20:00:21.131Z] GET /api/price
+[2026-02-28T20:00:21.140Z] GET /api/stats
+[2026-02-28T20:00:41.038Z] GET /api/stats
+[2026-02-28T20:00:41.039Z] GET /api/transactions/recent
+[2026-02-28T20:00:41.041Z] GET /api/peers
+[2026-02-28T20:00:41.055Z] GET /api/price
+[2026-02-28T20:00:41.061Z] GET /api/stats
+[2026-02-28T20:00:53.966Z] MLX price: $0.00000038 (-0.40%)
+[2026-02-28T20:01:12.041Z] GET /api/stats
+[2026-02-28T20:01:12.043Z] GET /api/transactions/recent
+[2026-02-28T20:01:12.049Z] GET /api/peers
+[2026-02-28T20:01:12.073Z] GET /api/price
+[2026-02-28T20:01:12.084Z] GET /api/stats
+[2026-02-28T20:01:53.995Z] MLX price: $0.00000038 (+1.75%)
+[2026-02-28T20:02:12.057Z] GET /api/stats
+[2026-02-28T20:02:12.064Z] GET /api/transactions/recent
+[2026-02-28T20:02:12.069Z] GET /api/peers
+[2026-02-28T20:02:12.081Z] GET /api/price
+[2026-02-28T20:02:12.104Z] GET /api/stats
+[2026-02-28T20:02:54.121Z] MLX price: $0.00000038 (+1.75%)
+[2026-02-28T20:03:12.041Z] GET /api/stats
+[2026-02-28T20:03:12.043Z] GET /api/transactions/recent
+[2026-02-28T20:03:12.049Z] GET /api/peers
+[2026-02-28T20:03:12.079Z] GET /api/price
+[2026-02-28T20:03:12.084Z] GET /api/stats
+[2026-02-28T20:03:26.001Z] GET /api/stats
+[2026-02-28T20:03:26.003Z] GET /api/transactions/recent
+[2026-02-28T20:03:26.004Z] GET /api/peers
+[2026-02-28T20:03:26.016Z] GET /api/price
+[2026-02-28T20:03:26.023Z] GET /api/stats
+[2026-02-28T20:03:40.621Z] GET /api/stats
+[2026-02-28T20:03:40.622Z] GET /api/transactions/recent
+[2026-02-28T20:03:40.623Z] GET /api/peers
+[2026-02-28T20:03:40.635Z] GET /api/price
+[2026-02-28T20:03:40.642Z] GET /api/stats
+[2026-02-28T20:03:54.014Z] MLX price: $0.00000038 (-0.53%)
+[2026-02-28T20:04:00.621Z] GET /api/stats
+[2026-02-28T20:04:00.622Z] GET /api/transactions/recent
+[2026-02-28T20:04:00.624Z] GET /api/peers
+[2026-02-28T20:04:00.635Z] GET /api/price
+[2026-02-28T20:04:00.643Z] GET /api/stats
+[2026-02-28T20:04:20.622Z] GET /api/stats
+[2026-02-28T20:04:20.623Z] GET /api/transactions/recent
+[2026-02-28T20:04:20.627Z] GET /api/peers
+[2026-02-28T20:04:20.656Z] GET /api/price
+[2026-02-28T20:04:20.657Z] GET /api/stats
+[2026-02-28T20:04:40.627Z] GET /api/stats
+[2026-02-28T20:04:40.632Z] GET /api/transactions/recent
+[2026-02-28T20:04:40.638Z] GET /api/peers
+[2026-02-28T20:04:40.671Z] GET /api/price
+[2026-02-28T20:04:40.683Z] GET /api/stats
+[2026-02-28T20:04:54.327Z] MLX price: $0.00000038 (-0.53%)
+[2026-02-28T20:04:58.141Z] GET /api/dag
+[2026-02-28T20:05:00.689Z] GET /api/stats
+[2026-02-28T20:05:00.689Z] GET /api/transactions/recent
+[2026-02-28T20:05:00.692Z] GET /api/peers
+[2026-02-28T20:05:00.825Z] GET /api/price
+[2026-02-28T20:05:00.920Z] GET /api/stats
+[2026-02-28T20:05:05.516Z] GET /api/dag
+[2026-02-28T20:05:14.543Z] GET /api/transaction/2JGasM2frvW2qFDGSTy7s8izG6MLBqwVfwdSNKsE9uaYRFj9kr
+[2026-02-28T20:05:20.623Z] GET /api/stats
+[2026-02-28T20:05:20.624Z] GET /api/transactions/recent
+[2026-02-28T20:05:20.626Z] GET /api/dag
+[2026-02-28T20:05:20.649Z] GET /api/price
+[2026-02-28T20:05:25.011Z] GET /api/dag
+[2026-02-28T20:05:35.299Z] GET /api/dag
+[2026-02-28T20:05:39.106Z] GET /api/peers
+[2026-02-28T20:05:39.249Z] GET /api/stats
+[2026-02-28T20:05:40.624Z] GET /api/stats
+[2026-02-28T20:05:40.626Z] GET /api/transactions/recent
+[2026-02-28T20:05:40.629Z] GET /api/peers
+[2026-02-28T20:05:40.635Z] GET /api/price
+[2026-02-28T20:05:40.645Z] GET /api/stats
+[2026-02-28T20:05:46.106Z] GET /api/dag
+[2026-02-28T20:05:48.830Z] GET /api/dag
+[2026-02-28T20:05:54.037Z] MLX price: $0.00000038 (-0.26%)
+[2026-02-28T20:05:55.286Z] GET /api/peers
+[2026-02-28T20:05:55.393Z] GET /api/stats
+[2026-02-28T20:05:59.811Z] GET /api/dag
+[2026-02-28T20:06:00.663Z] GET /api/stats
+[2026-02-28T20:06:00.664Z] GET /api/transactions/recent
+[2026-02-28T20:06:00.666Z] GET /api/dag
+[2026-02-28T20:06:00.806Z] GET /api/price
+[2026-02-28T20:06:05.859Z] GET /api/peers
+[2026-02-28T20:06:05.997Z] GET /api/stats
+[2026-02-28T20:06:12.242Z] GET /api/peers
+[2026-02-28T20:06:12.253Z] GET /api/stats
+[2026-02-28T20:06:13.930Z] GET /api/peers
+[2026-02-28T20:06:13.939Z] GET /api/stats
+[2026-02-28T20:06:18.006Z] GET /api/dag
+[2026-02-28T20:06:20.723Z] GET /api/stats
+[2026-02-28T20:06:20.723Z] GET /api/transactions/recent
+[2026-02-28T20:06:20.725Z] GET /api/dag
+[2026-02-28T20:06:20.884Z] GET /api/price
+[2026-02-28T20:06:40.628Z] GET /api/stats
+[2026-02-28T20:06:40.632Z] GET /api/transactions/recent
+[2026-02-28T20:06:40.639Z] GET /api/dag
+[2026-02-28T20:06:40.671Z] GET /api/price
+[2026-02-28T20:06:54.031Z] MLX price: $0.00000038 (-0.26%)
+[2026-02-28T20:07:00.622Z] GET /api/stats
+[2026-02-28T20:07:00.623Z] GET /api/transactions/recent
+[2026-02-28T20:07:00.624Z] GET /api/dag
+[2026-02-28T20:07:00.635Z] GET /api/price
+[2026-02-28T20:07:20.627Z] GET /api/stats
+[2026-02-28T20:07:20.631Z] GET /api/transactions/recent
+[2026-02-28T20:07:20.635Z] GET /api/dag
+[2026-02-28T20:07:20.657Z] GET /api/price
+[2026-02-28T20:07:40.622Z] GET /api/stats
+[2026-02-28T20:07:40.623Z] GET /api/transactions/recent
+[2026-02-28T20:07:40.624Z] GET /api/dag
+[2026-02-28T20:07:40.639Z] GET /api/price
+[2026-02-28T20:07:54.011Z] MLX price: $0.00000037 (-5.79%)
+[2026-02-28T20:08:00.626Z] GET /api/stats
+[2026-02-28T20:08:00.629Z] GET /api/transactions/recent
+[2026-02-28T20:08:00.638Z] GET /api/dag
+[2026-02-28T20:08:00.704Z] GET /api/price
+[2026-02-28T20:08:20.622Z] GET /api/stats
+[2026-02-28T20:08:20.624Z] GET /api/transactions/recent
+[2026-02-28T20:08:20.625Z] GET /api/dag
+[2026-02-28T20:08:20.642Z] GET /api/price
+[2026-02-28T20:08:40.623Z] GET /api/stats
+[2026-02-28T20:08:40.625Z] GET /api/transactions/recent
+[2026-02-28T20:08:40.627Z] GET /api/dag
+[2026-02-28T20:08:40.642Z] GET /api/price
+[2026-02-28T20:08:54.030Z] MLX price: $0.00000037 (-5.79%)
+[2026-02-28T20:09:00.622Z] GET /api/stats
+[2026-02-28T20:09:00.623Z] GET /api/transactions/recent
+[2026-02-28T20:09:00.625Z] GET /api/dag
+[2026-02-28T20:09:00.635Z] GET /api/price
+[2026-02-28T20:09:09.170Z] GET /
+[2026-02-28T20:09:09.215Z] GET /styles.css
+[2026-02-28T20:09:09.216Z] GET /millix-icon.png
+[2026-02-28T20:09:09.217Z] GET /js/config.js
+[2026-02-28T20:09:09.218Z] GET /js/live-data.js
+[2026-02-28T20:09:09.218Z] GET /js/api.js
+[2026-02-28T20:09:09.218Z] GET /js/visualization.js
+[2026-02-28T20:09:09.218Z] GET /js/transactions.js
+[2026-02-28T20:09:09.219Z] GET /js/network-stats.js
+[2026-02-28T20:09:09.223Z] GET /js/app.js
+[2026-02-28T20:09:09.294Z] GET /api/stats
+[2026-02-28T20:09:09.300Z] GET /millix-icon.png
+[2026-02-28T20:09:09.332Z] GET /api/price
+[2026-02-28T20:09:09.336Z] GET /api/transactions/recent
+[2026-02-28T20:09:09.401Z] GET /api/peers
+[2026-02-28T20:09:09.409Z] GET /api/stats
+[2026-02-28T20:09:09.421Z] GET /api/stats
+[2026-02-28T20:09:09.427Z] GET /api/price
+[2026-02-28T20:09:24.514Z] GET /
+[2026-02-28T20:09:24.539Z] GET /styles.css
+[2026-02-28T20:09:24.539Z] GET /millix-icon.png
+[2026-02-28T20:09:24.554Z] GET /js/config.js
+[2026-02-28T20:09:24.554Z] GET /js/live-data.js
+[2026-02-28T20:09:24.555Z] GET /js/api.js
+[2026-02-28T20:09:24.555Z] GET /js/visualization.js
+[2026-02-28T20:09:24.555Z] GET /js/transactions.js
+[2026-02-28T20:09:24.555Z] GET /js/network-stats.js
+[2026-02-28T20:09:24.570Z] GET /js/app.js
+[2026-02-28T20:09:24.628Z] GET /api/stats
+[2026-02-28T20:09:24.649Z] GET /millix-icon.png
+[2026-02-28T20:09:24.674Z] GET /api/price
+[2026-02-28T20:09:24.685Z] GET /api/transactions/recent
+[2026-02-28T20:09:24.725Z] GET /api/peers
+[2026-02-28T20:09:24.736Z] GET /api/stats
+[2026-02-28T20:09:24.757Z] GET /api/stats
+[2026-02-28T20:09:24.851Z] GET /api/price
+[2026-02-28T20:09:29.410Z] GET /api/peers
+[2026-02-28T20:09:29.429Z] GET /api/stats
+[2026-02-28T20:09:31.986Z] GET /api/peers
+[2026-02-28T20:09:31.999Z] GET /api/stats
+[2026-02-28T20:09:34.585Z] GET /api/dag
+[2026-02-28T20:09:44.773Z] GET /api/stats
+[2026-02-28T20:09:44.774Z] GET /api/transactions/recent
+[2026-02-28T20:09:44.775Z] GET /api/dag
+[2026-02-28T20:09:44.791Z] GET /api/price
+[2026-02-28T20:09:53.186Z] GET /api/transaction/yo3E8mnu1MG2oBoqw4AcaEqiihPzo8NtrqBJXwV4M2eSskQxg
+[2026-02-28T20:09:54.148Z] MLX price: $0.00000037 (-2.60%)
+[2026-02-28T20:10:04.768Z] GET /api/stats
+[2026-02-28T20:10:04.769Z] GET /api/transactions/recent
+[2026-02-28T20:10:04.771Z] GET /api/dag
+[2026-02-28T20:10:04.785Z] GET /api/price
+[2026-02-28T20:10:24.771Z] GET /api/stats
+[2026-02-28T20:10:24.773Z] GET /api/transactions/recent
+[2026-02-28T20:10:24.777Z] GET /api/dag
+[2026-02-28T20:10:24.794Z] GET /api/price
+[2026-02-28T20:10:45.039Z] GET /api/stats
+[2026-02-28T20:10:45.040Z] GET /api/transactions/recent
+[2026-02-28T20:10:45.042Z] GET /api/dag
+[2026-02-28T20:10:45.063Z] GET /api/price
+[2026-02-28T20:10:54.039Z] MLX price: $0.00000037 (-2.60%)
+[2026-02-28T20:11:05.041Z] GET /api/stats
+[2026-02-28T20:11:05.046Z] GET /api/transactions/recent
+[2026-02-28T20:11:05.053Z] GET /api/dag
+[2026-02-28T20:11:05.071Z] GET /api/price
+[2026-02-28T20:11:25.039Z] GET /api/stats
+[2026-02-28T20:11:25.041Z] GET /api/transactions/recent
+[2026-02-28T20:11:25.044Z] GET /api/dag
+[2026-02-28T20:11:25.063Z] GET /api/price
+[2026-02-28T20:11:54.049Z] MLX price: $0.00000037 (-2.60%)
+[2026-02-28T20:12:12.042Z] GET /api/stats
+[2026-02-28T20:12:12.044Z] GET /api/transactions/recent
+[2026-02-28T20:12:12.048Z] GET /api/dag
+[2026-02-28T20:12:12.066Z] GET /api/price
+[2026-02-28T20:12:54.116Z] MLX price: $0.00000037 (-2.60%)
+[2026-02-28T20:13:12.043Z] GET /api/stats
+[2026-02-28T20:13:12.045Z] GET /api/transactions/recent
+[2026-02-28T20:13:12.048Z] GET /api/dag
+[2026-02-28T20:13:12.108Z] GET /api/price
+[2026-02-28T20:13:54.091Z] MLX price: $0.00000037 (-1.97%)
+[2026-02-28T20:14:12.035Z] GET /api/stats
+[2026-02-28T20:14:12.038Z] GET /api/transactions/recent
+[2026-02-28T20:14:12.040Z] GET /api/dag
+[2026-02-28T20:14:12.058Z] GET /api/price
+[2026-02-28T20:14:24.877Z] GET /api/stats
+[2026-02-28T20:14:24.884Z] GET /api/transactions/recent
+[2026-02-28T20:14:24.891Z] GET /api/dag
+[2026-02-28T20:14:25.118Z] GET /api/price
+[2026-02-28T20:14:31.381Z] GET /
+[2026-02-28T20:14:31.423Z] GET /styles.css
+[2026-02-28T20:14:31.423Z] GET /millix-icon.png
+[2026-02-28T20:14:31.444Z] GET /js/config.js
+[2026-02-28T20:14:31.444Z] GET /js/live-data.js
+[2026-02-28T20:14:31.444Z] GET /js/api.js
+[2026-02-28T20:14:31.444Z] GET /js/visualization.js
+[2026-02-28T20:14:31.444Z] GET /js/transactions.js
+[2026-02-28T20:14:31.445Z] GET /js/network-stats.js
+[2026-02-28T20:14:31.457Z] GET /js/app.js
+[2026-02-28T20:14:31.514Z] GET /api/stats
+[2026-02-28T20:14:31.556Z] GET /millix-icon.png
+[2026-02-28T20:14:31.567Z] GET /api/price
+[2026-02-28T20:14:31.590Z] GET /api/transactions/recent
+[2026-02-28T20:14:31.645Z] GET /api/peers
+[2026-02-28T20:14:31.656Z] GET /api/stats
+[2026-02-28T20:14:31.671Z] GET /api/stats
+[2026-02-28T20:14:31.701Z] GET /api/price
+[2026-02-28T20:14:49.486Z] GET /api/peers
+[2026-02-28T20:14:49.530Z] GET /api/stats
+[2026-02-28T20:14:51.681Z] GET /api/stats
+[2026-02-28T20:14:51.682Z] GET /api/transactions/recent
+[2026-02-28T20:14:51.687Z] GET /api/peers
+[2026-02-28T20:14:51.699Z] GET /api/price
+[2026-02-28T20:14:51.719Z] GET /api/stats
+[2026-02-28T20:14:53.093Z] GET /api/peers
+[2026-02-28T20:14:53.105Z] GET /api/stats
+[2026-02-28T20:14:54.134Z] MLX price: $0.00000037 (-1.97%)
+[2026-02-28T20:15:08.776Z] GET /api/dag
+[2026-02-28T20:15:11.685Z] GET /api/stats
+[2026-02-28T20:15:11.685Z] GET /api/transactions/recent
+[2026-02-28T20:15:11.687Z] GET /api/dag
+[2026-02-28T20:15:11.745Z] GET /api/price
+[2026-02-28T20:15:21.445Z] GET /api/dag
+[2026-02-28T20:15:31.681Z] GET /api/stats
+[2026-02-28T20:15:31.684Z] GET /api/transactions/recent
+[2026-02-28T20:15:31.687Z] GET /api/dag
+[2026-02-28T20:15:31.698Z] GET /api/price
+[2026-02-28T20:15:40.318Z] GET /api/price
+[2026-02-28T20:15:51.678Z] GET /api/stats
+[2026-02-28T20:15:51.679Z] GET /api/transactions/recent
+[2026-02-28T20:15:51.680Z] GET /api/price
+[2026-02-28T20:15:51.702Z] GET /api/price
+[2026-02-28T20:15:54.473Z] MLX price: $0.00000037 (-1.97%)
+[2026-02-28T20:15:57.357Z] GET /api/peers
+[2026-02-28T20:15:57.377Z] GET /api/stats
+[2026-02-28T20:16:01.044Z] GET /api/peers
+[2026-02-28T20:16:01.060Z] GET /api/stats
+[2026-02-28T20:16:03.194Z] GET /api/dag
+[2026-02-28T20:16:04.686Z] GET /api/peers
+[2026-02-28T20:16:04.762Z] GET /api/stats
+[2026-02-28T20:16:11.678Z] GET /api/stats
+[2026-02-28T20:16:11.679Z] GET /api/transactions/recent
+[2026-02-28T20:16:11.681Z] GET /api/peers
+[2026-02-28T20:16:11.692Z] GET /api/price
+[2026-02-28T20:16:11.698Z] GET /api/stats
+[2026-02-28T20:16:31.679Z] GET /api/stats
+[2026-02-28T20:16:31.680Z] GET /api/transactions/recent
+[2026-02-28T20:16:31.682Z] GET /api/peers
+[2026-02-28T20:16:31.708Z] GET /api/price
+[2026-02-28T20:16:31.710Z] GET /api/stats
+[2026-02-28T20:16:51.680Z] GET /api/stats
+[2026-02-28T20:16:51.683Z] GET /api/transactions/recent
+[2026-02-28T20:16:51.688Z] GET /api/peers
+[2026-02-28T20:16:51.704Z] GET /api/price
+[2026-02-28T20:16:51.710Z] GET /api/stats
+[2026-02-28T20:16:54.167Z] MLX price: $0.00000037 (-1.97%)
+[2026-02-28T20:17:11.678Z] GET /api/stats
+[2026-02-28T20:17:11.679Z] GET /api/transactions/recent
+[2026-02-28T20:17:11.680Z] GET /api/peers
+[2026-02-28T20:17:11.695Z] GET /api/price
+[2026-02-28T20:17:11.699Z] GET /api/stats
+[2026-02-28T20:17:31.679Z] GET /api/stats
+[2026-02-28T20:17:31.681Z] GET /api/transactions/recent
+[2026-02-28T20:17:31.684Z] GET /api/peers
+[2026-02-28T20:17:31.697Z] GET /api/price
+[2026-02-28T20:17:31.701Z] GET /api/stats
+[2026-02-28T20:17:37.843Z] GET /api/dag
+[2026-02-28T20:17:42.914Z] GET /api/price
+[2026-02-28T20:17:51.676Z] GET /api/price
+[2026-02-28T20:17:54.139Z] MLX price: $0.00000037 (-1.06%)
+[2026-02-28T20:18:11.680Z] GET /api/price
+[2026-02-28T20:18:31.678Z] GET /api/price
+[2026-02-28T20:18:46.010Z] GET /api/stats
+[2026-02-28T20:18:46.020Z] GET /api/price
+[2026-02-28T20:18:46.024Z] GET /api/transactions/recent
+[2026-02-28T20:18:46.096Z] GET /api/peers
+[2026-02-28T20:18:46.118Z] GET /api/stats
+[2026-02-28T20:18:50.356Z] GET /api/price
+[2026-02-28T20:18:51.674Z] GET /api/price
+[2026-02-28T20:18:54.125Z] MLX price: $0.00000037 (-1.06%)
+[2026-02-28T20:18:56.485Z] GET /api/stats
+[2026-02-28T20:18:56.517Z] GET /api/price
+[2026-02-28T20:18:56.524Z] GET /api/transactions/recent
+[2026-02-28T20:18:56.609Z] GET /api/peers
+[2026-02-28T20:18:56.629Z] GET /api/stats
+[2026-02-28T20:19:04.439Z] GET /api/peers
+[2026-02-28T20:19:04.455Z] GET /api/stats
+[2026-02-28T20:19:11.684Z] GET /api/stats
+[2026-02-28T20:19:11.690Z] GET /api/transactions/recent
+[2026-02-28T20:19:11.700Z] GET /api/peers
+[2026-02-28T20:19:11.733Z] GET /api/price
+[2026-02-28T20:19:11.738Z] GET /api/stats
+[2026-02-28T20:19:31.680Z] GET /api/stats
+[2026-02-28T20:19:31.681Z] GET /api/transactions/recent
+[2026-02-28T20:19:31.682Z] GET /api/peers
+[2026-02-28T20:19:31.696Z] GET /api/price
+[2026-02-28T20:19:31.705Z] GET /api/stats
+[2026-02-28T20:19:40.229Z] GET /api/dag
+[2026-02-28T20:19:51.708Z] GET /api/stats
+[2026-02-28T20:19:51.710Z] GET /api/transactions/recent
+[2026-02-28T20:19:51.711Z] GET /api/dag
+[2026-02-28T20:19:51.795Z] GET /api/price
+[2026-02-28T20:19:54.141Z] MLX price: $0.00000037 (-1.06%)
+[2026-02-28T20:20:08.909Z] GET /api/transaction/2qcPZS3NFXgLuSNv8mccRd76gmCKNz19LzC2JMEEEncyALJUZ
+[2026-02-28T20:20:11.676Z] GET /api/stats
+[2026-02-28T20:20:11.676Z] GET /api/transactions/recent
+[2026-02-28T20:20:11.678Z] GET /api/dag
+[2026-02-28T20:20:11.770Z] GET /api/price
+[2026-02-28T20:20:21.237Z] GET /api/peers
+[2026-02-28T20:20:21.250Z] GET /api/stats
+[2026-02-28T20:20:28.558Z] GET /api/price
+[2026-02-28T20:20:31.677Z] GET /api/price
+[2026-02-28T20:20:51.677Z] GET /api/price
+[2026-02-28T20:20:54.104Z] MLX price: $0.00000037 (-1.06%)
+[2026-02-28T20:21:11.681Z] GET /api/price
+[2026-02-28T20:21:31.681Z] GET /api/price
+[2026-02-28T20:21:51.679Z] GET /api/price
+[2026-02-28T20:21:54.458Z] MLX price: $0.00000037 (+1.91%)
+[2026-02-28T20:22:11.679Z] GET /api/price
+[2026-02-28T20:22:31.681Z] GET /api/price
+[2026-02-28T20:22:51.677Z] GET /api/price
+[2026-02-28T20:22:54.139Z] MLX price: $0.00000037 (+1.91%)
+[2026-02-28T20:23:11.681Z] GET /api/price
+[2026-02-28T20:23:31.680Z] GET /api/price
+[2026-02-28T20:23:51.677Z] GET /api/price
+[2026-02-28T20:23:54.197Z] MLX price: $0.00000038 (+0.27%)
+[2026-02-28T20:24:00.614Z] GET /
+[2026-02-28T20:24:00.633Z] GET /styles.css
+[2026-02-28T20:24:00.634Z] GET /millix-icon.png
+[2026-02-28T20:24:00.648Z] GET /js/config.js
+[2026-02-28T20:24:00.648Z] GET /js/live-data.js
+[2026-02-28T20:24:00.649Z] GET /js/api.js
+[2026-02-28T20:24:00.649Z] GET /js/visualization.js
+[2026-02-28T20:24:00.649Z] GET /js/transactions.js
+[2026-02-28T20:24:00.649Z] GET /js/network-stats.js
+[2026-02-28T20:24:00.652Z] GET /js/app.js
+[2026-02-28T20:24:00.717Z] GET /api/stats
+[2026-02-28T20:24:00.739Z] GET /millix-icon.png
+[2026-02-28T20:24:00.785Z] GET /api/price
+[2026-02-28T20:24:00.798Z] GET /api/transactions/recent
+[2026-02-28T20:24:00.846Z] GET /api/peers
+[2026-02-28T20:24:00.857Z] GET /api/stats
+[2026-02-28T20:24:00.873Z] GET /api/stats
+[2026-02-28T20:24:00.943Z] GET /api/price
+[2026-02-28T20:24:05.003Z] GET /api/price
+[2026-02-28T20:24:20.877Z] GET /api/price
+[2026-02-28T20:24:40.878Z] GET /api/price
+[2026-02-28T20:24:54.198Z] MLX price: $0.00000038 (+0.27%)
+[2026-02-28T20:24:57.432Z] GET /api/price
+[2026-02-28T20:25:00.877Z] GET /api/price
+[2026-02-28T20:25:00.888Z] GET /api/price
+[2026-02-28T20:25:20.876Z] GET /api/price
+[2026-02-28T20:25:40.877Z] GET /api/price
+[2026-02-28T20:25:41.193Z] GET /api/stats
+[2026-02-28T20:25:41.230Z] GET /api/price
+[2026-02-28T20:25:41.249Z] GET /api/transactions/recent
+[2026-02-28T20:25:41.303Z] GET /api/dag
+[2026-02-28T20:25:44.438Z] GET /api/dag
+[2026-02-28T20:25:51.028Z] GET /api/dag
+[2026-02-28T20:25:53.163Z] GET /api/dag
+[2026-02-28T20:25:54.126Z] MLX price: $0.00000038 (-2.33%)
+[2026-02-28T20:26:00.881Z] GET /api/stats
+[2026-02-28T20:26:00.883Z] GET /api/transactions/recent
+[2026-02-28T20:26:00.885Z] GET /api/dag
+[2026-02-28T20:26:00.982Z] GET /api/price
+[2026-02-28T20:26:20.896Z] GET /api/stats
+[2026-02-28T20:26:20.897Z] GET /api/transactions/recent
+[2026-02-28T20:26:20.899Z] GET /api/dag
+[2026-02-28T20:26:20.979Z] GET /api/price
+[2026-02-28T20:26:40.891Z] GET /api/stats
+[2026-02-28T20:26:40.893Z] GET /api/transactions/recent
+[2026-02-28T20:26:40.895Z] GET /api/dag
+[2026-02-28T20:26:40.956Z] GET /api/price
+[2026-02-28T20:26:54.709Z] MLX price: $0.00000038 (-2.33%)
+[2026-02-28T20:27:00.909Z] GET /api/stats
+[2026-02-28T20:27:00.911Z] GET /api/transactions/recent
+[2026-02-28T20:27:00.913Z] GET /api/dag
+[2026-02-28T20:27:01.029Z] GET /api/price
+[2026-02-28T20:27:16.715Z] GET /api/price
+[2026-02-28T20:27:19.895Z] GET /api/dag
+[2026-02-28T20:27:20.944Z] GET /api/stats
+[2026-02-28T20:27:20.945Z] GET /api/transactions/recent
+[2026-02-28T20:27:20.947Z] GET /api/dag
+[2026-02-28T20:27:21.114Z] GET /api/price
+[2026-02-28T20:27:33.962Z] GET /api/dag
+[2026-02-28T20:27:38.479Z] GET /api/transaction/8wSuNxSumTXnGZS6H7YhkDQWM6gftZRWKPNHr54B9132DHpjR
+[2026-02-28T20:27:40.893Z] GET /api/stats
+[2026-02-28T20:27:40.894Z] GET /api/transactions/recent
+[2026-02-28T20:27:40.896Z] GET /api/dag
+[2026-02-28T20:27:40.996Z] GET /api/price
+[2026-02-28T20:27:54.406Z] MLX price: $0.00000038 (+6.18%)
+[2026-02-28T20:27:59.473Z] GET /api/peers
+[2026-02-28T20:27:59.597Z] GET /api/stats
+[2026-02-28T20:28:00.876Z] GET /api/stats
+[2026-02-28T20:28:00.876Z] GET /api/transactions/recent
+[2026-02-28T20:28:00.878Z] GET /api/peers
+[2026-02-28T20:28:00.884Z] GET /api/price
+[2026-02-28T20:28:00.895Z] GET /api/stats
+[2026-02-28T20:28:20.878Z] GET /api/stats
+[2026-02-28T20:28:20.879Z] GET /api/transactions/recent
+[2026-02-28T20:28:20.880Z] GET /api/peers
+[2026-02-28T20:28:20.892Z] GET /api/price
+[2026-02-28T20:28:20.898Z] GET /api/stats
+[2026-02-28T20:28:24.308Z] GET /api/peers
+[2026-02-28T20:28:24.317Z] GET /api/stats
+[2026-02-28T20:28:35.115Z] GET /api/peers
+[2026-02-28T20:28:35.127Z] GET /api/stats
+[2026-02-28T20:28:37.542Z] GET /api/dag
+[2026-02-28T20:28:40.926Z] GET /api/stats
+[2026-02-28T20:28:40.927Z] GET /api/transactions/recent
+[2026-02-28T20:28:40.930Z] GET /api/dag
+[2026-02-28T20:28:41.081Z] GET /api/price
+[2026-02-28T20:28:45.250Z] GET /api/dag
+[2026-02-28T20:28:46.999Z] GET /api/price
+[2026-02-28T20:28:54.161Z] MLX price: $0.00000038 (+6.18%)
+[2026-02-28T20:29:00.878Z] GET /api/stats
+[2026-02-28T20:29:00.879Z] GET /api/transactions/recent
+[2026-02-28T20:29:00.880Z] GET /api/price
+[2026-02-28T20:29:00.894Z] GET /api/price
+[2026-02-28T20:29:20.874Z] GET /api/stats
+[2026-02-28T20:29:20.875Z] GET /api/transactions/recent
+[2026-02-28T20:29:20.877Z] GET /api/price
+[2026-02-28T20:29:20.894Z] GET /api/price
+[2026-02-28T20:29:34.220Z] GET /api/dag
+[2026-02-28T20:29:40.930Z] GET /api/stats
+[2026-02-28T20:29:40.931Z] GET /api/transactions/recent
+[2026-02-28T20:29:40.934Z] GET /api/dag
+[2026-02-28T20:29:41.055Z] GET /api/price
+[2026-02-28T20:29:53.317Z] GET /api/peers
+[2026-02-28T20:29:53.329Z] GET /api/stats
+[2026-02-28T20:29:54.189Z] MLX price: $0.00000038 (-2.07%)
+[2026-02-28T20:30:00.878Z] GET /api/stats
+[2026-02-28T20:30:00.879Z] GET /api/transactions/recent
+[2026-02-28T20:30:00.881Z] GET /api/peers
+[2026-02-28T20:30:00.895Z] GET /api/price
+[2026-02-28T20:30:00.900Z] GET /api/stats
+[2026-02-28T20:30:20.878Z] GET /api/stats
+[2026-02-28T20:30:20.879Z] GET /api/transactions/recent
+[2026-02-28T20:30:20.882Z] GET /api/peers
+[2026-02-28T20:30:20.900Z] GET /api/price
+[2026-02-28T20:30:20.906Z] GET /api/stats
+[2026-02-28T20:30:40.878Z] GET /api/stats
+[2026-02-28T20:30:40.880Z] GET /api/transactions/recent
+[2026-02-28T20:30:40.882Z] GET /api/peers
+[2026-02-28T20:30:40.893Z] GET /api/price
+[2026-02-28T20:30:40.901Z] GET /api/stats
+[2026-02-28T20:30:54.153Z] MLX price: $0.00000038 (-2.07%)
+[2026-02-28T20:31:00.878Z] GET /api/stats
+[2026-02-28T20:31:00.879Z] GET /api/transactions/recent
+[2026-02-28T20:31:00.881Z] GET /api/peers
+[2026-02-28T20:31:00.898Z] GET /api/price
+[2026-02-28T20:31:00.906Z] GET /api/stats
+[2026-02-28T20:31:20.881Z] GET /api/stats
+[2026-02-28T20:31:20.883Z] GET /api/transactions/recent
+[2026-02-28T20:31:20.886Z] GET /api/peers
+[2026-02-28T20:31:20.900Z] GET /api/price
+[2026-02-28T20:31:20.909Z] GET /api/stats
+[2026-02-28T20:31:40.885Z] GET /api/stats
+[2026-02-28T20:31:40.890Z] GET /api/transactions/recent
+[2026-02-28T20:31:40.898Z] GET /api/peers
+[2026-02-28T20:31:40.923Z] GET /api/price
+[2026-02-28T20:31:40.932Z] GET /api/stats
+[2026-02-28T20:31:54.275Z] MLX price: $0.00000038 (+0.27%)
+[2026-02-28T20:32:00.878Z] GET /api/stats
+[2026-02-28T20:32:00.879Z] GET /api/transactions/recent
+[2026-02-28T20:32:00.880Z] GET /api/peers
+[2026-02-28T20:32:00.892Z] GET /api/price
+[2026-02-28T20:32:00.899Z] GET /api/stats
+[2026-02-28T20:32:20.879Z] GET /api/stats
+[2026-02-28T20:32:20.880Z] GET /api/transactions/recent
+[2026-02-28T20:32:20.882Z] GET /api/peers
+[2026-02-28T20:32:20.896Z] GET /api/price
+[2026-02-28T20:32:20.907Z] GET /api/stats
+[2026-02-28T20:32:40.883Z] GET /api/stats
+[2026-02-28T20:32:40.887Z] GET /api/transactions/recent
+[2026-02-28T20:32:40.889Z] GET /api/peers
+[2026-02-28T20:32:40.902Z] GET /api/price
+[2026-02-28T20:32:40.908Z] GET /api/stats
+[2026-02-28T20:32:54.153Z] MLX price: $0.00000038 (+0.27%)
+[2026-02-28T20:33:00.878Z] GET /api/stats
+[2026-02-28T20:33:00.879Z] GET /api/transactions/recent
+[2026-02-28T20:33:00.880Z] GET /api/peers
+[2026-02-28T20:33:00.896Z] GET /api/price
+[2026-02-28T20:33:00.898Z] GET /api/stats
+[2026-02-28T20:33:20.878Z] GET /api/stats
+[2026-02-28T20:33:20.880Z] GET /api/transactions/recent
+[2026-02-28T20:33:20.881Z] GET /api/peers
+[2026-02-28T20:33:20.896Z] GET /api/price
+[2026-02-28T20:33:20.900Z] GET /api/stats
+[2026-02-28T20:33:40.878Z] GET /api/stats
+[2026-02-28T20:33:40.879Z] GET /api/transactions/recent
+[2026-02-28T20:33:40.880Z] GET /api/peers
+[2026-02-28T20:33:40.893Z] GET /api/price
+[2026-02-28T20:33:40.900Z] GET /api/stats
+[2026-02-28T20:33:54.487Z] MLX price: $0.00000038 (-0.40%)
+[2026-02-28T20:34:00.878Z] GET /api/stats
+[2026-02-28T20:34:00.880Z] GET /api/transactions/recent
+[2026-02-28T20:34:00.882Z] GET /api/peers
+[2026-02-28T20:34:00.899Z] GET /api/price
+[2026-02-28T20:34:00.906Z] GET /api/stats
+[2026-02-28T20:34:20.878Z] GET /api/stats
+[2026-02-28T20:34:20.879Z] GET /api/transactions/recent
+[2026-02-28T20:34:20.881Z] GET /api/peers
+[2026-02-28T20:34:20.895Z] GET /api/price
+[2026-02-28T20:34:20.911Z] GET /api/stats
+[2026-02-28T20:34:40.883Z] GET /api/stats
+[2026-02-28T20:34:40.888Z] GET /api/transactions/recent
+[2026-02-28T20:34:40.895Z] GET /api/peers
+[2026-02-28T20:34:40.931Z] GET /api/price
+[2026-02-28T20:34:40.942Z] GET /api/stats
+[2026-02-28T20:34:54.144Z] MLX price: $0.00000038 (-0.40%)
+[2026-02-28T20:35:00.878Z] GET /api/stats
+[2026-02-28T20:35:00.880Z] GET /api/transactions/recent
+[2026-02-28T20:35:00.882Z] GET /api/peers
+[2026-02-28T20:35:00.897Z] GET /api/price
+[2026-02-28T20:35:00.901Z] GET /api/stats
+[2026-02-28T20:35:20.878Z] GET /api/stats
+[2026-02-28T20:35:20.879Z] GET /api/transactions/recent
+[2026-02-28T20:35:20.880Z] GET /api/peers
+[2026-02-28T20:35:20.895Z] GET /api/price
+[2026-02-28T20:35:20.900Z] GET /api/stats
+[2026-02-28T20:35:40.884Z] GET /api/stats
+[2026-02-28T20:35:40.888Z] GET /api/transactions/recent
+[2026-02-28T20:35:40.895Z] GET /api/peers
+[2026-02-28T20:35:40.933Z] GET /api/price
+[2026-02-28T20:35:40.940Z] GET /api/stats
+[2026-02-28T20:35:54.182Z] MLX price: $0.00000038 (+0.53%)
+[2026-02-28T20:35:59.097Z] GET /
+[2026-02-28T20:35:59.126Z] GET /styles.css
+[2026-02-28T20:35:59.126Z] GET /millix-icon.png
+[2026-02-28T20:35:59.151Z] GET /js/config.js
+[2026-02-28T20:35:59.151Z] GET /js/live-data.js
+[2026-02-28T20:35:59.151Z] GET /js/api.js
+[2026-02-28T20:35:59.152Z] GET /js/visualization.js
+[2026-02-28T20:35:59.152Z] GET /js/transactions.js
+[2026-02-28T20:35:59.152Z] GET /js/network-stats.js
+[2026-02-28T20:35:59.169Z] GET /js/app.js
+[2026-02-28T20:35:59.240Z] GET /api/stats
+[2026-02-28T20:35:59.244Z] GET /millix-icon.png
+[2026-02-28T20:35:59.258Z] GET /api/price
+[2026-02-28T20:35:59.261Z] GET /api/transactions/recent
+[2026-02-28T20:35:59.328Z] GET /api/peers
+[2026-02-28T20:35:59.338Z] GET /api/stats
+[2026-02-28T20:35:59.351Z] GET /api/stats
+[2026-02-28T20:35:59.405Z] GET /api/price
+[2026-02-28T20:36:07.378Z] GET /api/dag
+[2026-02-28T20:36:14.810Z] GET /api/dag
+[2026-02-28T20:36:19.365Z] GET /api/stats
+[2026-02-28T20:36:19.366Z] GET /api/transactions/recent
+[2026-02-28T20:36:19.368Z] GET /api/dag
+[2026-02-28T20:36:19.425Z] GET /api/price
+[2026-02-28T20:36:27.359Z] GET /
+[2026-02-28T20:36:27.374Z] GET /styles.css
+[2026-02-28T20:36:27.374Z] GET /millix-icon.png
+[2026-02-28T20:36:27.381Z] GET /js/config.js
+[2026-02-28T20:36:27.382Z] GET /js/live-data.js
+[2026-02-28T20:36:27.384Z] GET /js/api.js
+[2026-02-28T20:36:27.384Z] GET /js/visualization.js
+[2026-02-28T20:36:27.384Z] GET /js/transactions.js
+[2026-02-28T20:36:27.384Z] GET /js/network-stats.js
+[2026-02-28T20:36:27.384Z] GET /js/app.js
+[2026-02-28T20:36:27.432Z] GET /api/stats
+[2026-02-28T20:36:27.446Z] GET /millix-icon.png
+[2026-02-28T20:36:27.469Z] GET /api/price
+[2026-02-28T20:36:27.478Z] GET /api/transactions/recent
+[2026-02-28T20:36:27.560Z] GET /api/peers
+[2026-02-28T20:36:27.573Z] GET /api/stats
+[2026-02-28T20:36:27.590Z] GET /api/stats
+[2026-02-28T20:36:27.656Z] GET /api/price
+[2026-02-28T20:36:31.229Z] GET /api/peers
+[2026-02-28T20:36:31.239Z] GET /api/stats
+[2026-02-28T20:36:38.276Z] GET /api/dag
+[2026-02-28T20:36:47.598Z] GET /api/stats
+[2026-02-28T20:36:47.599Z] GET /api/transactions/recent
+[2026-02-28T20:36:47.600Z] GET /api/dag
+[2026-02-28T20:36:47.610Z] GET /api/price
+[2026-02-28T20:36:53.033Z] GET /api/dag
+[2026-02-28T20:36:54.172Z] MLX price: $0.00000038 (+0.53%)
+[2026-02-28T20:36:54.713Z] GET /api/price
+[2026-02-28T20:37:04.589Z] GET /api/dag
+[2026-02-28T20:37:06.769Z] GET /api/dag
+[2026-02-28T20:37:07.635Z] GET /api/stats
+[2026-02-28T20:37:07.636Z] GET /api/transactions/recent
+[2026-02-28T20:37:07.638Z] GET /api/dag
+[2026-02-28T20:37:07.731Z] GET /api/price
+[2026-02-28T20:37:09.114Z] GET /api/peers
+[2026-02-28T20:37:09.235Z] GET /api/stats
+[2026-02-28T20:37:14.830Z] GET /api/dag
+[2026-02-28T20:37:19.736Z] GET /api/price
+[2026-02-28T20:37:27.599Z] GET /api/price
+[2026-02-28T20:37:47.602Z] GET /api/price
+[2026-02-28T20:37:54.223Z] MLX price: $0.00000038 (+0.53%)
+[2026-02-28T20:38:07.602Z] GET /api/price
+[2026-02-28T20:38:11.278Z] GET /api/stats
+[2026-02-28T20:38:11.292Z] GET /api/price
+[2026-02-28T20:38:11.306Z] GET /api/transactions/recent
+[2026-02-28T20:38:11.387Z] GET /api/dag
+[2026-02-28T20:38:17.610Z] GET /api/peers
+[2026-02-28T20:38:17.705Z] GET /api/stats
+[2026-02-28T20:38:19.901Z] GET /api/peers
+[2026-02-28T20:38:19.918Z] GET /api/stats
+[2026-02-28T20:38:23.911Z] GET /api/dag
+[2026-02-28T20:38:27.605Z] GET /api/stats
+[2026-02-28T20:38:27.605Z] GET /api/transactions/recent
+[2026-02-28T20:38:27.608Z] GET /api/dag
+[2026-02-28T20:38:27.627Z] GET /api/price
+[2026-02-28T20:38:47.604Z] GET /api/stats
+[2026-02-28T20:38:47.608Z] GET /api/transactions/recent
+[2026-02-28T20:38:47.615Z] GET /api/dag
+[2026-02-28T20:38:47.650Z] GET /api/price
+[2026-02-28T20:38:54.214Z] MLX price: $0.00000038 (+0.53%)
+[2026-02-28T20:39:07.607Z] GET /api/stats
+[2026-02-28T20:39:07.610Z] GET /api/transactions/recent
+[2026-02-28T20:39:07.613Z] GET /api/dag
+[2026-02-28T20:39:07.639Z] GET /api/price
+[2026-02-28T20:39:27.598Z] GET /api/stats
+[2026-02-28T20:39:27.599Z] GET /api/transactions/recent
+[2026-02-28T20:39:27.600Z] GET /api/dag
+[2026-02-28T20:39:27.612Z] GET /api/price
+[2026-02-28T20:39:47.603Z] GET /api/stats
+[2026-02-28T20:39:47.607Z] GET /api/transactions/recent
+[2026-02-28T20:39:47.613Z] GET /api/dag
+[2026-02-28T20:39:47.670Z] GET /api/price
+[2026-02-28T20:39:54.468Z] MLX price: $0.00000038 (-2.33%)
+[2026-02-28T20:40:07.598Z] GET /api/stats
+[2026-02-28T20:40:07.600Z] GET /api/transactions/recent
+[2026-02-28T20:40:07.601Z] GET /api/dag
+[2026-02-28T20:40:07.612Z] GET /api/price
+[2026-02-28T20:40:27.600Z] GET /api/stats
+[2026-02-28T20:40:27.602Z] GET /api/transactions/recent
+[2026-02-28T20:40:27.603Z] GET /api/dag
+[2026-02-28T20:40:27.614Z] GET /api/price
+[2026-02-28T20:40:46.889Z] GET /
+[2026-02-28T20:40:46.909Z] GET /styles.css
+[2026-02-28T20:40:46.910Z] GET /millix-icon.png
+[2026-02-28T20:40:46.919Z] GET /js/config.js
+[2026-02-28T20:40:46.919Z] GET /js/live-data.js
+[2026-02-28T20:40:46.919Z] GET /js/api.js
+[2026-02-28T20:40:46.919Z] GET /js/visualization.js
+[2026-02-28T20:40:46.919Z] GET /js/transactions.js
+[2026-02-28T20:40:46.919Z] GET /js/network-stats.js
+[2026-02-28T20:40:46.925Z] GET /js/app.js
+[2026-02-28T20:40:46.988Z] GET /api/stats
+[2026-02-28T20:40:46.994Z] GET /millix-icon.png
+[2026-02-28T20:40:47.017Z] GET /api/price
+[2026-02-28T20:40:47.022Z] GET /api/transactions/recent
+[2026-02-28T20:40:47.094Z] GET /api/peers
+[2026-02-28T20:40:47.109Z] GET /api/stats
+[2026-02-28T20:40:47.124Z] GET /api/stats
+[2026-02-28T20:40:47.138Z] GET /api/price
+[2026-02-28T20:40:54.196Z] MLX price: $0.00000038 (-2.33%)
+[2026-02-28T20:40:55.335Z] GET /api/dag
+[2026-02-28T20:40:59.661Z] GET /api/dag
+[2026-02-28T20:41:01.184Z] GET /api/price
+[2026-02-28T20:41:03.464Z] GET /api/dag
+[2026-02-28T20:41:04.969Z] GET /api/peers
+[2026-02-28T20:41:05.034Z] GET /api/stats
+[2026-02-28T20:41:07.128Z] GET /api/stats
+[2026-02-28T20:41:07.128Z] GET /api/transactions/recent
+[2026-02-28T20:41:07.131Z] GET /api/peers
+[2026-02-28T20:41:07.135Z] GET /api/price
+[2026-02-28T20:41:07.148Z] GET /api/stats
+[2026-02-28T20:41:09.003Z] GET /api/peers
+[2026-02-28T20:41:09.017Z] GET /api/stats
+[2026-02-28T20:41:27.133Z] GET /api/stats
+[2026-02-28T20:41:27.134Z] GET /api/transactions/recent
+[2026-02-28T20:41:27.136Z] GET /api/peers
+[2026-02-28T20:41:27.150Z] GET /api/price
+[2026-02-28T20:41:27.154Z] GET /api/stats
+[2026-02-28T20:41:47.135Z] GET /api/stats
+[2026-02-28T20:41:47.137Z] GET /api/transactions/recent
+[2026-02-28T20:41:47.138Z] GET /api/peers
+[2026-02-28T20:41:47.148Z] GET /api/price
+[2026-02-28T20:41:47.155Z] GET /api/stats
+[2026-02-28T20:41:54.217Z] MLX price: $0.00000038 (-4.05%)
+[2026-02-28T20:42:07.136Z] GET /api/stats
+[2026-02-28T20:42:07.137Z] GET /api/transactions/recent
+[2026-02-28T20:42:07.139Z] GET /api/peers
+[2026-02-28T20:42:07.161Z] GET /api/price
+[2026-02-28T20:42:07.165Z] GET /api/stats
+[2026-02-28T20:42:27.134Z] GET /api/stats
+[2026-02-28T20:42:27.135Z] GET /api/transactions/recent
+[2026-02-28T20:42:27.137Z] GET /api/peers
+[2026-02-28T20:42:27.148Z] GET /api/price
+[2026-02-28T20:42:27.156Z] GET /api/stats
+[2026-02-28T20:42:47.135Z] GET /api/stats
+[2026-02-28T20:42:47.136Z] GET /api/transactions/recent
+[2026-02-28T20:42:47.138Z] GET /api/peers
+[2026-02-28T20:42:47.152Z] GET /api/price
+[2026-02-28T20:42:47.157Z] GET /api/stats
+[2026-02-28T20:42:54.184Z] MLX price: $0.00000038 (-4.05%)
+[2026-02-28T20:43:07.150Z] GET /api/stats
+[2026-02-28T20:43:07.152Z] GET /api/transactions/recent
+[2026-02-28T20:43:07.155Z] GET /api/peers
+[2026-02-28T20:43:07.170Z] GET /api/price
+[2026-02-28T20:43:07.175Z] GET /api/stats
+[2026-02-28T20:43:21.972Z] GET /
+[2026-02-28T20:43:21.992Z] GET /styles.css
+[2026-02-28T20:43:21.992Z] GET /millix-icon.png
+[2026-02-28T20:43:22.003Z] GET /js/config.js
+[2026-02-28T20:43:22.003Z] GET /js/live-data.js
+[2026-02-28T20:43:22.003Z] GET /js/api.js
+[2026-02-28T20:43:22.003Z] GET /js/visualization.js
+[2026-02-28T20:43:22.003Z] GET /js/transactions.js
+[2026-02-28T20:43:22.003Z] GET /js/network-stats.js
+[2026-02-28T20:43:22.008Z] GET /js/app.js
+[2026-02-28T20:43:22.107Z] GET /api/stats
+[2026-02-28T20:43:22.113Z] GET /millix-icon.png
+[2026-02-28T20:43:22.128Z] GET /api/price
+[2026-02-28T20:43:22.133Z] GET /api/transactions/recent
+[2026-02-28T20:43:22.217Z] GET /api/peers
+[2026-02-28T20:43:22.233Z] GET /api/stats
+[2026-02-28T20:43:22.252Z] GET /api/stats
+[2026-02-28T20:43:22.317Z] GET /api/price
+[2026-02-28T20:43:42.260Z] GET /api/stats
+[2026-02-28T20:43:42.264Z] GET /api/transactions/recent
+[2026-02-28T20:43:42.266Z] GET /api/peers
+[2026-02-28T20:43:42.277Z] GET /api/price
+[2026-02-28T20:43:42.282Z] GET /api/stats
+[2026-02-28T20:43:54.261Z] MLX price: $0.00000038 (-4.53%)
+[2026-02-28T20:44:02.253Z] GET /api/stats
+[2026-02-28T20:44:02.254Z] GET /api/transactions/recent
+[2026-02-28T20:44:02.256Z] GET /api/peers
+[2026-02-28T20:44:02.267Z] GET /api/price
+[2026-02-28T20:44:02.273Z] GET /api/stats
+[2026-02-28T20:44:22.254Z] GET /api/stats
+[2026-02-28T20:44:22.255Z] GET /api/transactions/recent
+[2026-02-28T20:44:22.257Z] GET /api/peers
+[2026-02-28T20:44:22.270Z] GET /api/price
+[2026-02-28T20:44:22.275Z] GET /api/stats
+[2026-02-28T20:44:42.256Z] GET /api/stats
+[2026-02-28T20:44:42.259Z] GET /api/transactions/recent
+[2026-02-28T20:44:42.263Z] GET /api/peers
+[2026-02-28T20:44:42.297Z] GET /api/price
+[2026-02-28T20:44:42.304Z] GET /api/stats
+[2026-02-28T20:44:54.192Z] MLX price: $0.00000038 (-4.53%)
+[2026-02-28T20:45:02.253Z] GET /api/stats
+[2026-02-28T20:45:02.254Z] GET /api/transactions/recent
+[2026-02-28T20:45:02.256Z] GET /api/peers
+[2026-02-28T20:45:02.271Z] GET /api/price
+[2026-02-28T20:45:02.278Z] GET /api/stats
+[2026-02-28T20:45:22.255Z] GET /api/stats
+[2026-02-28T20:45:22.257Z] GET /api/transactions/recent
+[2026-02-28T20:45:22.260Z] GET /api/peers
+[2026-02-28T20:45:22.279Z] GET /api/price
+[2026-02-28T20:45:22.286Z] GET /api/stats
+[2026-02-28T20:45:42.253Z] GET /api/stats
+[2026-02-28T20:45:42.254Z] GET /api/transactions/recent
+[2026-02-28T20:45:42.256Z] GET /api/peers
+[2026-02-28T20:45:42.270Z] GET /api/price
+[2026-02-28T20:45:42.273Z] GET /api/stats
+[2026-02-28T20:45:54.204Z] MLX price: $0.00000038 (+2.29%)
+[2026-02-28T20:46:02.253Z] GET /api/stats
+[2026-02-28T20:46:02.254Z] GET /api/transactions/recent
+[2026-02-28T20:46:02.256Z] GET /api/peers
+[2026-02-28T20:46:02.267Z] GET /api/price
+[2026-02-28T20:46:02.274Z] GET /api/stats
+[2026-02-28T20:46:22.254Z] GET /api/stats
+[2026-02-28T20:46:22.255Z] GET /api/transactions/recent
+[2026-02-28T20:46:22.257Z] GET /api/peers
+[2026-02-28T20:46:22.272Z] GET /api/price
+[2026-02-28T20:46:22.278Z] GET /api/stats
+[2026-02-28T20:46:42.255Z] GET /api/stats
+[2026-02-28T20:46:42.257Z] GET /api/transactions/recent
+[2026-02-28T20:46:42.258Z] GET /api/peers
+[2026-02-28T20:46:42.273Z] GET /api/price
+[2026-02-28T20:46:42.277Z] GET /api/stats
+[2026-02-28T20:46:54.208Z] MLX price: $0.00000038 (+2.29%)
+[2026-02-28T20:47:02.253Z] GET /api/stats
+[2026-02-28T20:47:02.254Z] GET /api/transactions/recent
+[2026-02-28T20:47:02.256Z] GET /api/peers
+[2026-02-28T20:47:02.270Z] GET /api/price
+[2026-02-28T20:47:02.274Z] GET /api/stats
+[2026-02-28T20:47:22.255Z] GET /api/stats
+[2026-02-28T20:47:22.256Z] GET /api/transactions/recent
+[2026-02-28T20:47:22.259Z] GET /api/peers
+[2026-02-28T20:47:22.283Z] GET /api/stats
+[2026-02-28T20:47:22.284Z] GET /api/price
+[2026-02-28T20:47:42.258Z] GET /api/stats
+[2026-02-28T20:47:42.261Z] GET /api/transactions/recent
+[2026-02-28T20:47:42.266Z] GET /api/peers
+[2026-02-28T20:47:42.311Z] GET /api/price
+[2026-02-28T20:47:42.324Z] GET /api/stats
+[2026-02-28T20:47:54.151Z] MLX price: $0.00000038 (-1.56%)
+[2026-02-28T20:48:02.254Z] GET /api/stats
+[2026-02-28T20:48:02.255Z] GET /api/transactions/recent
+[2026-02-28T20:48:02.258Z] GET /api/peers
+[2026-02-28T20:48:02.269Z] GET /api/price
+[2026-02-28T20:48:02.277Z] GET /api/stats
+[2026-02-28T20:48:22.254Z] GET /api/stats
+[2026-02-28T20:48:22.255Z] GET /api/transactions/recent
+[2026-02-28T20:48:22.256Z] GET /api/peers
+[2026-02-28T20:48:22.268Z] GET /api/price
+[2026-02-28T20:48:22.275Z] GET /api/stats
+[2026-02-28T20:48:42.255Z] GET /api/stats
+[2026-02-28T20:48:42.256Z] GET /api/transactions/recent
+[2026-02-28T20:48:42.258Z] GET /api/peers
+[2026-02-28T20:48:42.270Z] GET /api/price
+[2026-02-28T20:48:42.275Z] GET /api/stats
+[2026-02-28T20:48:54.193Z] MLX price: $0.00000038 (-1.56%)
+[2026-02-28T20:49:02.254Z] GET /api/stats
+[2026-02-28T20:49:02.255Z] GET /api/transactions/recent
+[2026-02-28T20:49:02.257Z] GET /api/peers
+[2026-02-28T20:49:02.272Z] GET /api/price
+[2026-02-28T20:49:02.277Z] GET /api/stats
+[2026-02-28T20:49:22.256Z] GET /api/stats
+[2026-02-28T20:49:22.259Z] GET /api/transactions/recent
+[2026-02-28T20:49:22.262Z] GET /api/peers
+[2026-02-28T20:49:22.290Z] GET /api/price
+[2026-02-28T20:49:22.307Z] GET /api/stats
+[2026-02-28T20:49:42.253Z] GET /api/stats
+[2026-02-28T20:49:42.254Z] GET /api/transactions/recent
+[2026-02-28T20:49:42.256Z] GET /api/peers
+[2026-02-28T20:49:42.269Z] GET /api/price
+[2026-02-28T20:49:42.273Z] GET /api/stats
+[2026-02-28T20:49:54.174Z] MLX price: $0.00000038 (-1.56%)
+[2026-02-28T20:50:02.258Z] GET /api/stats
+[2026-02-28T20:50:02.261Z] GET /api/transactions/recent
+[2026-02-28T20:50:02.267Z] GET /api/peers
+[2026-02-28T20:50:02.293Z] GET /api/price
+[2026-02-28T20:50:02.298Z] GET /api/stats
+[2026-02-28T20:50:22.254Z] GET /api/stats
+[2026-02-28T20:50:22.255Z] GET /api/transactions/recent
+[2026-02-28T20:50:22.256Z] GET /api/peers
+[2026-02-28T20:50:22.269Z] GET /api/price
+[2026-02-28T20:50:22.274Z] GET /api/stats
+[2026-02-28T20:50:42.259Z] GET /api/stats
+[2026-02-28T20:50:42.261Z] GET /api/transactions/recent
+[2026-02-28T20:50:42.263Z] GET /api/peers
+[2026-02-28T20:50:42.275Z] GET /api/price
+[2026-02-28T20:50:42.281Z] GET /api/stats
+[2026-02-28T20:50:54.521Z] MLX price: $0.00000038 (-1.56%)
+[2026-02-28T20:51:02.254Z] GET /api/stats
+[2026-02-28T20:51:02.255Z] GET /api/transactions/recent
+[2026-02-28T20:51:02.257Z] GET /api/peers
+[2026-02-28T20:51:02.270Z] GET /api/price
+[2026-02-28T20:51:02.277Z] GET /api/stats
+[2026-02-28T20:51:22.254Z] GET /api/stats
+[2026-02-28T20:51:22.255Z] GET /api/transactions/recent
+[2026-02-28T20:51:22.256Z] GET /api/peers
+[2026-02-28T20:51:22.270Z] GET /api/price
+[2026-02-28T20:51:22.276Z] GET /api/stats
+[2026-02-28T20:51:42.258Z] GET /api/stats
+[2026-02-28T20:51:42.260Z] GET /api/transactions/recent
+[2026-02-28T20:51:42.264Z] GET /api/peers
+[2026-02-28T20:51:42.288Z] GET /api/price
+[2026-02-28T20:51:42.295Z] GET /api/stats
+[2026-02-28T20:51:54.194Z] MLX price: $0.00000038 (+0.66%)
+[2026-02-28T20:52:02.256Z] GET /api/stats
+[2026-02-28T20:52:02.258Z] GET /api/transactions/recent
+[2026-02-28T20:52:02.261Z] GET /api/peers
+[2026-02-28T20:52:02.276Z] GET /api/price
+[2026-02-28T20:52:02.283Z] GET /api/stats
+[2026-02-28T20:52:22.256Z] GET /api/stats
+[2026-02-28T20:52:22.257Z] GET /api/transactions/recent
+[2026-02-28T20:52:22.260Z] GET /api/peers
+[2026-02-28T20:52:22.272Z] GET /api/price
+[2026-02-28T20:52:22.277Z] GET /api/stats
+[2026-02-28T20:52:42.257Z] GET /api/stats
+[2026-02-28T20:52:42.259Z] GET /api/transactions/recent
+[2026-02-28T20:52:42.262Z] GET /api/peers
+[2026-02-28T20:52:42.275Z] GET /api/price
+[2026-02-28T20:52:42.279Z] GET /api/stats
+[2026-02-28T20:52:54.200Z] MLX price: $0.00000038 (+0.66%)
+[2026-02-28T20:53:02.254Z] GET /api/stats
+[2026-02-28T20:53:02.255Z] GET /api/transactions/recent
+[2026-02-28T20:53:02.257Z] GET /api/peers
+[2026-02-28T20:53:02.269Z] GET /api/price
+[2026-02-28T20:53:02.277Z] GET /api/stats
+[2026-02-28T20:53:22.256Z] GET /api/stats
+[2026-02-28T20:53:22.258Z] GET /api/transactions/recent
+[2026-02-28T20:53:22.261Z] GET /api/peers
+[2026-02-28T20:53:22.280Z] GET /api/price
+[2026-02-28T20:53:22.287Z] GET /api/stats
+[2026-02-28T20:53:42.259Z] GET /api/stats
+[2026-02-28T20:53:42.263Z] GET /api/transactions/recent
+[2026-02-28T20:53:42.265Z] GET /api/peers
+[2026-02-28T20:53:42.278Z] GET /api/price
+[2026-02-28T20:53:42.282Z] GET /api/stats
+[2026-02-28T20:53:54.173Z] MLX price: $0.00000038 (+1.88%)
+[2026-02-28T20:54:02.254Z] GET /api/stats
+[2026-02-28T20:54:02.255Z] GET /api/transactions/recent
+[2026-02-28T20:54:02.257Z] GET /api/peers
+[2026-02-28T20:54:02.273Z] GET /api/price
+[2026-02-28T20:54:02.275Z] GET /api/stats
+[2026-02-28T20:54:22.256Z] GET /api/stats
+[2026-02-28T20:54:22.259Z] GET /api/transactions/recent
+[2026-02-28T20:54:22.262Z] GET /api/peers
+[2026-02-28T20:54:22.282Z] GET /api/price
+[2026-02-28T20:54:22.284Z] GET /api/stats
+[2026-02-28T20:54:42.260Z] GET /api/stats
+[2026-02-28T20:54:42.264Z] GET /api/transactions/recent
+[2026-02-28T20:54:42.271Z] GET /api/peers
+[2026-02-28T20:54:42.287Z] GET /api/price
+[2026-02-28T20:54:42.288Z] GET /api/stats
+[2026-02-28T20:54:54.178Z] MLX price: $0.00000038 (+1.88%)
+[2026-02-28T20:55:02.254Z] GET /api/stats
+[2026-02-28T20:55:02.255Z] GET /api/transactions/recent
+[2026-02-28T20:55:02.257Z] GET /api/peers
+[2026-02-28T20:55:02.271Z] GET /api/price
+[2026-02-28T20:55:02.277Z] GET /api/stats
+[2026-02-28T20:55:22.256Z] GET /api/stats
+[2026-02-28T20:55:22.257Z] GET /api/transactions/recent
+[2026-02-28T20:55:22.261Z] GET /api/peers
+[2026-02-28T20:55:22.274Z] GET /api/price
+[2026-02-28T20:55:22.278Z] GET /api/stats
+[2026-02-28T20:55:42.260Z] GET /api/stats
+[2026-02-28T20:55:42.264Z] GET /api/transactions/recent
+[2026-02-28T20:55:42.270Z] GET /api/peers
+[2026-02-28T20:55:42.312Z] GET /api/price
+[2026-02-28T20:55:42.321Z] GET /api/stats
+[2026-02-28T20:55:54.166Z] MLX price: $0.00000038 (-1.04%)
+[2026-02-28T20:56:02.254Z] GET /api/stats
+[2026-02-28T20:56:02.255Z] GET /api/transactions/recent
+[2026-02-28T20:56:02.257Z] GET /api/peers
+[2026-02-28T20:56:02.270Z] GET /api/price
+[2026-02-28T20:56:02.275Z] GET /api/stats
+[2026-02-28T20:56:22.257Z] GET /api/stats
+[2026-02-28T20:56:22.260Z] GET /api/transactions/recent
+[2026-02-28T20:56:22.265Z] GET /api/peers
+[2026-02-28T20:56:22.292Z] GET /api/price
+[2026-02-28T20:56:22.314Z] GET /api/stats
+[2026-02-28T20:56:42.260Z] GET /api/stats
+[2026-02-28T20:56:42.265Z] GET /api/transactions/recent
+[2026-02-28T20:56:42.267Z] GET /api/peers
+[2026-02-28T20:56:42.279Z] GET /api/price
+[2026-02-28T20:56:42.283Z] GET /api/stats
+[2026-02-28T20:56:54.489Z] MLX price: $0.00000038 (-1.04%)
+[2026-02-28T20:57:02.254Z] GET /api/stats
+[2026-02-28T20:57:02.255Z] GET /api/transactions/recent
+[2026-02-28T20:57:02.257Z] GET /api/peers
+[2026-02-28T20:57:02.271Z] GET /api/price
+[2026-02-28T20:57:02.278Z] GET /api/stats
+[2026-02-28T20:57:22.259Z] GET /api/stats
+[2026-02-28T20:57:22.262Z] GET /api/transactions/recent
+[2026-02-28T20:57:22.263Z] GET /api/peers
+[2026-02-28T20:57:22.273Z] GET /api/price
+[2026-02-28T20:57:22.282Z] GET /api/stats
+[2026-02-28T20:57:42.254Z] GET /api/stats
+[2026-02-28T20:57:42.255Z] GET /api/transactions/recent
+[2026-02-28T20:57:42.256Z] GET /api/peers
+[2026-02-28T20:57:42.270Z] GET /api/price
+[2026-02-28T20:57:42.277Z] GET /api/stats
+[2026-02-28T20:57:54.200Z] MLX price: $0.00000038 (-1.04%)
+[2026-02-28T20:58:02.253Z] GET /api/stats
+[2026-02-28T20:58:02.255Z] GET /api/transactions/recent
+[2026-02-28T20:58:02.257Z] GET /api/peers
+[2026-02-28T20:58:02.268Z] GET /api/price
+[2026-02-28T20:58:02.276Z] GET /api/stats
+[2026-02-28T20:58:22.253Z] GET /api/stats
+[2026-02-28T20:58:22.254Z] GET /api/transactions/recent
+[2026-02-28T20:58:22.256Z] GET /api/peers
+[2026-02-28T20:58:22.270Z] GET /api/price
+[2026-02-28T20:58:22.273Z] GET /api/stats
+[2026-02-28T20:58:42.254Z] GET /api/stats
+[2026-02-28T20:58:42.255Z] GET /api/transactions/recent
+[2026-02-28T20:58:42.256Z] GET /api/peers
+[2026-02-28T20:58:42.270Z] GET /api/price
+[2026-02-28T20:58:42.272Z] GET /api/stats
+[2026-02-28T20:58:54.200Z] MLX price: $0.00000038 (-1.04%)
+[2026-02-28T20:59:02.253Z] GET /api/stats
+[2026-02-28T20:59:02.254Z] GET /api/transactions/recent
+[2026-02-28T20:59:02.256Z] GET /api/peers
+[2026-02-28T20:59:02.267Z] GET /api/price
+[2026-02-28T20:59:02.275Z] GET /api/stats
+[2026-02-28T20:59:22.259Z] GET /api/stats
+[2026-02-28T20:59:22.261Z] GET /api/transactions/recent
+[2026-02-28T20:59:22.263Z] GET /api/peers
+[2026-02-28T20:59:22.286Z] GET /api/price
+[2026-02-28T20:59:22.291Z] GET /api/stats
+[2026-02-28T20:59:42.261Z] GET /api/stats
+[2026-02-28T20:59:42.262Z] GET /api/transactions/recent
+[2026-02-28T20:59:42.263Z] GET /api/peers
+[2026-02-28T20:59:42.282Z] GET /api/price
+[2026-02-28T20:59:42.284Z] GET /api/stats
+[2026-02-28T20:59:54.204Z] MLX price: $0.00000038 (-2.07%)
+[2026-02-28T21:00:02.253Z] GET /api/stats
+[2026-02-28T21:00:02.254Z] GET /api/transactions/recent
+[2026-02-28T21:00:02.256Z] GET /api/peers
+[2026-02-28T21:00:02.268Z] GET /api/price
+[2026-02-28T21:00:02.276Z] GET /api/stats
+[2026-02-28T21:00:22.255Z] GET /api/stats
+[2026-02-28T21:00:22.256Z] GET /api/transactions/recent
+[2026-02-28T21:00:22.258Z] GET /api/peers
+[2026-02-28T21:00:22.269Z] GET /api/price
+[2026-02-28T21:00:22.276Z] GET /api/stats
+[2026-02-28T21:00:42.260Z] GET /api/stats
+[2026-02-28T21:00:42.261Z] GET /api/transactions/recent
+[2026-02-28T21:00:42.263Z] GET /api/peers
+[2026-02-28T21:00:42.275Z] GET /api/price
+[2026-02-28T21:00:42.279Z] GET /api/stats
+[2026-02-28T21:00:54.186Z] MLX price: $0.00000038 (-2.07%)
+[2026-02-28T21:01:02.254Z] GET /api/stats
+[2026-02-28T21:01:02.254Z] GET /api/transactions/recent
+[2026-02-28T21:01:02.256Z] GET /api/peers
+[2026-02-28T21:01:02.268Z] GET /api/price
+[2026-02-28T21:01:02.275Z] GET /api/stats
+[2026-02-28T21:01:22.256Z] GET /api/stats
+[2026-02-28T21:01:22.259Z] GET /api/transactions/recent
+[2026-02-28T21:01:22.264Z] GET /api/peers
+[2026-02-28T21:01:22.284Z] GET /api/price
+[2026-02-28T21:01:22.292Z] GET /api/stats
+[2026-02-28T21:01:42.260Z] GET /api/stats
+[2026-02-28T21:01:42.264Z] GET /api/transactions/recent
+[2026-02-28T21:01:42.271Z] GET /api/peers
+[2026-02-28T21:01:42.285Z] GET /api/price
+[2026-02-28T21:01:42.290Z] GET /api/stats
+[2026-02-28T21:01:54.220Z] MLX price: $0.00000038 (+5.87%)
+[2026-02-28T21:02:02.255Z] GET /api/stats
+[2026-02-28T21:02:02.256Z] GET /api/transactions/recent
+[2026-02-28T21:02:02.259Z] GET /api/peers
+[2026-02-28T21:02:02.273Z] GET /api/price
+[2026-02-28T21:02:02.280Z] GET /api/stats
+[2026-02-28T21:02:22.256Z] GET /api/stats
+[2026-02-28T21:02:22.257Z] GET /api/transactions/recent
+[2026-02-28T21:02:22.258Z] GET /api/peers
+[2026-02-28T21:02:22.271Z] GET /api/price
+[2026-02-28T21:02:22.278Z] GET /api/stats
+[2026-02-28T21:02:42.260Z] GET /api/stats
+[2026-02-28T21:02:42.265Z] GET /api/transactions/recent
+[2026-02-28T21:02:42.273Z] GET /api/peers
+[2026-02-28T21:02:42.305Z] GET /api/price
+[2026-02-28T21:02:42.315Z] GET /api/stats
+[2026-02-28T21:02:54.543Z] MLX price: $0.00000038 (+5.87%)
+[2026-02-28T21:03:02.253Z] GET /api/stats
+[2026-02-28T21:03:02.254Z] GET /api/transactions/recent
+[2026-02-28T21:03:02.256Z] GET /api/peers
+[2026-02-28T21:03:02.269Z] GET /api/price
+[2026-02-28T21:03:02.275Z] GET /api/stats
+[2026-02-28T21:03:22.260Z] GET /api/stats
+[2026-02-28T21:03:22.265Z] GET /api/transactions/recent
+[2026-02-28T21:03:22.272Z] GET /api/peers
+[2026-02-28T21:03:22.291Z] GET /api/price
+[2026-02-28T21:03:22.309Z] GET /api/stats
+[2026-02-28T21:03:42.259Z] GET /api/stats
+[2026-02-28T21:03:42.263Z] GET /api/transactions/recent
+[2026-02-28T21:03:42.265Z] GET /api/peers
+[2026-02-28T21:03:42.281Z] GET /api/price
+[2026-02-28T21:03:42.283Z] GET /api/stats
+[2026-02-28T21:03:54.183Z] MLX price: $0.00000038 (-1.04%)
+[2026-02-28T21:04:02.253Z] GET /api/stats
+[2026-02-28T21:04:02.254Z] GET /api/transactions/recent
+[2026-02-28T21:04:02.256Z] GET /api/peers
+[2026-02-28T21:04:02.269Z] GET /api/price
+[2026-02-28T21:04:02.275Z] GET /api/stats
+[2026-02-28T21:04:22.253Z] GET /api/stats
+[2026-02-28T21:04:22.255Z] GET /api/transactions/recent
+[2026-02-28T21:04:22.256Z] GET /api/peers
+[2026-02-28T21:04:22.267Z] GET /api/price
+[2026-02-28T21:04:22.275Z] GET /api/stats
+[2026-02-28T21:04:42.254Z] GET /api/stats
+[2026-02-28T21:04:42.255Z] GET /api/transactions/recent
+[2026-02-28T21:04:42.257Z] GET /api/peers
+[2026-02-28T21:04:42.273Z] GET /api/price
+[2026-02-28T21:04:42.278Z] GET /api/stats
+[2026-02-28T21:04:54.193Z] MLX price: $0.00000038 (-1.04%)
+[2026-02-28T21:05:02.253Z] GET /api/stats
+[2026-02-28T21:05:02.254Z] GET /api/transactions/recent
+[2026-02-28T21:05:02.256Z] GET /api/peers
+[2026-02-28T21:05:02.270Z] GET /api/price
+[2026-02-28T21:05:02.278Z] GET /api/stats
+[2026-02-28T21:05:22.255Z] GET /api/stats
+[2026-02-28T21:05:22.257Z] GET /api/transactions/recent
+[2026-02-28T21:05:22.259Z] GET /api/peers
+[2026-02-28T21:05:22.320Z] GET /api/price
+[2026-02-28T21:05:22.329Z] GET /api/stats
+[2026-02-28T21:05:42.259Z] GET /api/stats
+[2026-02-28T21:05:42.263Z] GET /api/transactions/recent
+[2026-02-28T21:05:42.266Z] GET /api/peers
+[2026-02-28T21:05:42.277Z] GET /api/price
+[2026-02-28T21:05:42.282Z] GET /api/stats
+[2026-02-28T21:05:54.135Z] MLX price: $0.00000038 (+3.69%)
+[2026-02-28T21:06:02.254Z] GET /api/stats
+[2026-02-28T21:06:02.255Z] GET /api/transactions/recent
+[2026-02-28T21:06:02.256Z] GET /api/peers
+[2026-02-28T21:06:02.268Z] GET /api/price
+[2026-02-28T21:06:02.273Z] GET /api/stats
+[2026-02-28T21:06:22.255Z] GET /api/stats
+[2026-02-28T21:06:22.257Z] GET /api/transactions/recent
+[2026-02-28T21:06:22.259Z] GET /api/peers
+[2026-02-28T21:06:22.273Z] GET /api/price
+[2026-02-28T21:06:22.278Z] GET /api/stats
+[2026-02-28T21:06:42.260Z] GET /api/stats
+[2026-02-28T21:06:42.265Z] GET /api/transactions/recent
+[2026-02-28T21:06:42.267Z] GET /api/peers
+[2026-02-28T21:06:42.278Z] GET /api/price
+[2026-02-28T21:06:42.284Z] GET /api/stats
+[2026-02-28T21:06:54.198Z] MLX price: $0.00000038 (+3.69%)
+[2026-02-28T21:07:02.254Z] GET /api/stats
+[2026-02-28T21:07:02.255Z] GET /api/transactions/recent
+[2026-02-28T21:07:02.256Z] GET /api/peers
+[2026-02-28T21:07:02.270Z] GET /api/price
+[2026-02-28T21:07:02.274Z] GET /api/stats
+[2026-02-28T21:07:22.254Z] GET /api/stats
+[2026-02-28T21:07:22.255Z] GET /api/transactions/recent
+[2026-02-28T21:07:22.256Z] GET /api/peers
+[2026-02-28T21:07:22.267Z] GET /api/price
+[2026-02-28T21:07:22.272Z] GET /api/stats
+[2026-02-28T21:07:42.260Z] GET /api/stats
+[2026-02-28T21:07:42.264Z] GET /api/transactions/recent
+[2026-02-28T21:07:42.271Z] GET /api/peers
+[2026-02-28T21:07:42.305Z] GET /api/price
+[2026-02-28T21:07:42.323Z] GET /api/stats
+[2026-02-28T21:07:54.197Z] MLX price: $0.00000038 (+1.07%)
+[2026-02-28T21:08:02.257Z] GET /api/stats
+[2026-02-28T21:08:02.259Z] GET /api/transactions/recent
+[2026-02-28T21:08:02.262Z] GET /api/peers
+[2026-02-28T21:08:02.278Z] GET /api/price
+[2026-02-28T21:08:02.284Z] GET /api/stats
+[2026-02-28T21:08:22.256Z] GET /api/stats
+[2026-02-28T21:08:22.259Z] GET /api/transactions/recent
+[2026-02-28T21:08:22.263Z] GET /api/peers
+[2026-02-28T21:08:22.354Z] GET /api/price
+[2026-02-28T21:08:22.356Z] GET /api/stats
+[2026-02-28T21:08:42.261Z] GET /api/stats
+[2026-02-28T21:08:42.265Z] GET /api/transactions/recent
+[2026-02-28T21:08:42.272Z] GET /api/peers
+[2026-02-28T21:08:42.292Z] GET /api/price
+[2026-02-28T21:08:42.297Z] GET /api/stats
+[2026-02-28T21:08:54.999Z] MLX price: $0.00000038 (+1.07%)
+[2026-02-28T21:09:02.253Z] GET /api/stats
+[2026-02-28T21:09:02.254Z] GET /api/transactions/recent
+[2026-02-28T21:09:02.256Z] GET /api/peers
+[2026-02-28T21:09:02.267Z] GET /api/price
+[2026-02-28T21:09:02.273Z] GET /api/stats
+[2026-02-28T21:09:22.258Z] GET /api/stats
+[2026-02-28T21:09:22.260Z] GET /api/transactions/recent
+[2026-02-28T21:09:22.262Z] GET /api/peers
+[2026-02-28T21:09:22.279Z] GET /api/price
+[2026-02-28T21:09:22.287Z] GET /api/stats
+[2026-02-28T21:09:42.260Z] GET /api/stats
+[2026-02-28T21:09:42.265Z] GET /api/transactions/recent
+[2026-02-28T21:09:42.272Z] GET /api/peers
+[2026-02-28T21:09:42.316Z] GET /api/price
+[2026-02-28T21:09:42.321Z] GET /api/stats
+[2026-02-28T21:09:54.233Z] MLX price: $0.00000038 (-0.79%)
+[2026-02-28T21:10:02.253Z] GET /api/stats
+[2026-02-28T21:10:02.254Z] GET /api/transactions/recent
+[2026-02-28T21:10:02.256Z] GET /api/peers
+[2026-02-28T21:10:02.274Z] GET /api/price
+[2026-02-28T21:10:02.279Z] GET /api/stats
+[2026-02-28T21:10:22.256Z] GET /api/stats
+[2026-02-28T21:10:22.259Z] GET /api/transactions/recent
+[2026-02-28T21:10:22.263Z] GET /api/peers
+[2026-02-28T21:10:22.288Z] GET /api/price
+[2026-02-28T21:10:22.300Z] GET /api/stats
+[2026-02-28T21:10:42.260Z] GET /api/stats
+[2026-02-28T21:10:42.261Z] GET /api/transactions/recent
+[2026-02-28T21:10:42.262Z] GET /api/peers
+[2026-02-28T21:10:42.275Z] GET /api/price
+[2026-02-28T21:10:42.279Z] GET /api/stats
+[2026-02-28T21:10:54.181Z] MLX price: $0.00000038 (-0.79%)
+[2026-02-28T21:11:02.253Z] GET /api/stats
+[2026-02-28T21:11:02.254Z] GET /api/transactions/recent
+[2026-02-28T21:11:02.255Z] GET /api/peers
+[2026-02-28T21:11:02.267Z] GET /api/price
+[2026-02-28T21:11:02.275Z] GET /api/stats
+[2026-02-28T21:11:22.253Z] GET /api/stats
+[2026-02-28T21:11:22.255Z] GET /api/transactions/recent
+[2026-02-28T21:11:22.256Z] GET /api/peers
+[2026-02-28T21:11:22.268Z] GET /api/price
+[2026-02-28T21:11:22.273Z] GET /api/stats
+[2026-02-28T21:11:42.262Z] GET /api/stats
+[2026-02-28T21:11:42.263Z] GET /api/transactions/recent
+[2026-02-28T21:11:42.265Z] GET /api/peers
+[2026-02-28T21:11:42.282Z] GET /api/price
+[2026-02-28T21:11:42.283Z] GET /api/stats
+[2026-02-28T21:11:54.194Z] MLX price: $0.00000038 (-0.79%)
+[2026-02-28T21:12:02.254Z] GET /api/stats
+[2026-02-28T21:12:02.255Z] GET /api/transactions/recent
+[2026-02-28T21:12:02.257Z] GET /api/peers
+[2026-02-28T21:12:02.270Z] GET /api/price
+[2026-02-28T21:12:02.276Z] GET /api/stats
+[2026-02-28T21:12:22.254Z] GET /api/stats
+[2026-02-28T21:12:22.255Z] GET /api/transactions/recent
+[2026-02-28T21:12:22.257Z] GET /api/peers
+[2026-02-28T21:12:22.274Z] GET /api/stats
+[2026-02-28T21:12:22.274Z] GET /api/price
+[2026-02-28T21:12:42.259Z] GET /api/stats
+[2026-02-28T21:12:42.264Z] GET /api/transactions/recent
+[2026-02-28T21:12:42.266Z] GET /api/peers
+[2026-02-28T21:12:42.280Z] GET /api/price
+[2026-02-28T21:12:42.284Z] GET /api/stats
+[2026-02-28T21:12:54.186Z] MLX price: $0.00000038 (-0.79%)
+[2026-02-28T21:13:02.257Z] GET /api/stats
+[2026-02-28T21:13:02.259Z] GET /api/transactions/recent
+[2026-02-28T21:13:02.262Z] GET /api/peers
+[2026-02-28T21:13:02.278Z] GET /api/price
+[2026-02-28T21:13:02.287Z] GET /api/stats
+[2026-02-28T21:13:22.254Z] GET /api/stats
+[2026-02-28T21:13:22.255Z] GET /api/transactions/recent
+[2026-02-28T21:13:22.256Z] GET /api/peers
+[2026-02-28T21:13:22.272Z] GET /api/price
+[2026-02-28T21:13:22.273Z] GET /api/stats
+[2026-02-28T21:13:42.260Z] GET /api/stats
+[2026-02-28T21:13:42.264Z] GET /api/transactions/recent
+[2026-02-28T21:13:42.271Z] GET /api/peers
+[2026-02-28T21:13:42.314Z] GET /api/price
+[2026-02-28T21:13:42.321Z] GET /api/stats
+[2026-02-28T21:13:54.213Z] MLX price: $0.00000038 (-4.53%)
+[2026-02-28T21:14:02.253Z] GET /api/stats
+[2026-02-28T21:14:02.254Z] GET /api/transactions/recent
+[2026-02-28T21:14:02.256Z] GET /api/peers
+[2026-02-28T21:14:02.268Z] GET /api/price
+[2026-02-28T21:14:02.275Z] GET /api/stats
+[2026-02-28T21:14:22.255Z] GET /api/stats
+[2026-02-28T21:14:22.256Z] GET /api/transactions/recent
+[2026-02-28T21:14:22.257Z] GET /api/peers
+[2026-02-28T21:14:22.270Z] GET /api/price
+[2026-02-28T21:14:22.275Z] GET /api/stats
+[2026-02-28T21:14:42.261Z] GET /api/stats
+[2026-02-28T21:14:42.265Z] GET /api/transactions/recent
+[2026-02-28T21:14:42.273Z] GET /api/peers
+[2026-02-28T21:14:42.304Z] GET /api/price
+[2026-02-28T21:14:42.313Z] GET /api/stats
+[2026-02-28T21:14:54.505Z] MLX price: $0.00000038 (-4.53%)
+[2026-02-28T21:15:02.255Z] GET /api/stats
+[2026-02-28T21:15:02.257Z] GET /api/transactions/recent
+[2026-02-28T21:15:02.258Z] GET /api/peers
+[2026-02-28T21:15:02.270Z] GET /api/price
+[2026-02-28T21:15:02.278Z] GET /api/stats
+[2026-02-28T21:15:22.255Z] GET /api/stats
+[2026-02-28T21:15:22.257Z] GET /api/transactions/recent
+[2026-02-28T21:15:22.261Z] GET /api/peers
+[2026-02-28T21:15:22.281Z] GET /api/price
+[2026-02-28T21:15:22.290Z] GET /api/stats
+[2026-02-28T21:15:42.260Z] GET /api/stats
+[2026-02-28T21:15:42.265Z] GET /api/transactions/recent
+[2026-02-28T21:15:42.272Z] GET /api/peers
+[2026-02-28T21:15:42.313Z] GET /api/price
+[2026-02-28T21:15:42.322Z] GET /api/stats
+[2026-02-28T21:15:54.210Z] MLX price: $0.00000038 (-4.53%)
+[2026-02-28T21:16:02.254Z] GET /api/stats
+[2026-02-28T21:16:02.255Z] GET /api/transactions/recent
+[2026-02-28T21:16:02.257Z] GET /api/peers
+[2026-02-28T21:16:02.274Z] GET /api/price
+[2026-02-28T21:16:02.281Z] GET /api/stats
+[2026-02-28T21:16:22.253Z] GET /api/stats
+[2026-02-28T21:16:22.254Z] GET /api/transactions/recent
+[2026-02-28T21:16:22.256Z] GET /api/peers
+[2026-02-28T21:16:22.266Z] GET /api/price
+[2026-02-28T21:16:22.273Z] GET /api/stats
+[2026-02-28T21:16:42.260Z] GET /api/stats
+[2026-02-28T21:16:42.264Z] GET /api/transactions/recent
+[2026-02-28T21:16:42.271Z] GET /api/peers
+[2026-02-28T21:16:42.311Z] GET /api/price
+[2026-02-28T21:16:42.321Z] GET /api/stats
+[2026-02-28T21:16:45.939Z] GET /api/peers
+[2026-02-28T21:16:45.951Z] GET /api/stats
+[2026-02-28T21:16:48.137Z] GET /api/peers
+[2026-02-28T21:16:48.146Z] GET /api/stats
+[2026-02-28T21:16:52.099Z] GET /api/peers
+[2026-02-28T21:16:52.119Z] GET /api/stats
+[2026-02-28T21:16:54.207Z] MLX price: $0.00000038 (-4.53%)
+[2026-02-28T21:16:54.686Z] GET /api/peers
+[2026-02-28T21:16:54.714Z] GET /api/stats
+[2026-02-28T21:16:56.285Z] GET /api/peers
+[2026-02-28T21:16:56.297Z] GET /api/stats
+[2026-02-28T21:17:02.253Z] GET /api/stats
+[2026-02-28T21:17:02.254Z] GET /api/transactions/recent
+[2026-02-28T21:17:02.256Z] GET /api/peers
+[2026-02-28T21:17:02.270Z] GET /api/price
+[2026-02-28T21:17:02.276Z] GET /api/stats
+[2026-02-28T21:17:07.359Z] GET /api/price
+[2026-02-28T21:17:22.253Z] GET /api/price
+[2026-02-28T21:17:42.253Z] GET /api/price
+[2026-02-28T21:17:54.216Z] MLX price: $0.00000038 (+0.26%)
+[2026-02-28T21:18:02.253Z] GET /api/price
+[2026-02-28T21:18:22.253Z] GET /api/price
+[2026-02-28T21:18:42.274Z] GET /api/price
+[2026-02-28T21:18:50.541Z] GET /api/price
+[2026-02-28T21:18:54.135Z] MLX price: $0.00000038 (+0.26%)
+[2026-02-28T21:19:02.253Z] GET /api/price
+[2026-02-28T21:19:04.789Z] GET /api/stats
+[2026-02-28T21:19:04.801Z] GET /api/price
+[2026-02-28T21:19:04.805Z] GET /api/transactions/recent
+[2026-02-28T21:19:04.926Z] GET /api/peers
+[2026-02-28T21:19:04.957Z] GET /api/stats
+[2026-02-28T21:19:15.056Z] GET /api/peers
+[2026-02-28T21:19:15.095Z] GET /api/stats
+[2026-02-28T21:19:22.258Z] GET /api/stats
+[2026-02-28T21:19:22.259Z] GET /api/transactions/recent
+[2026-02-28T21:19:22.261Z] GET /api/peers
+[2026-02-28T21:19:22.281Z] GET /api/price
+[2026-02-28T21:19:22.287Z] GET /api/stats
+[2026-02-28T21:19:25.532Z] GET /api/dag
+[2026-02-28T21:19:36.254Z] GET /api/transaction/2PVWXjddUFp6krZodiF84RBCTXiU5W6vEiHocF1EfemmWFGDuj
+[2026-02-28T21:19:38.732Z] GET /api/transaction/2EdKoGZ6mPmfQVHjiRgPKtEu8LcpZzi82QCQtQaiusrM3Ph4b5
+[2026-02-28T21:19:42.319Z] GET /api/stats
+[2026-02-28T21:19:42.320Z] GET /api/transactions/recent
+[2026-02-28T21:19:42.323Z] GET /api/dag
+[2026-02-28T21:19:42.593Z] GET /api/price
+[2026-02-28T21:19:44.199Z] GET /api/dag
+[2026-02-28T21:19:54.234Z] MLX price: $0.00000038 (-1.94%)
+[2026-02-28T21:20:02.295Z] GET /api/stats
+[2026-02-28T21:20:02.298Z] GET /api/transactions/recent
+[2026-02-28T21:20:02.424Z] GET /api/dag
+[2026-02-28T21:20:02.632Z] GET /api/price
+[2026-02-28T21:20:11.502Z] GET /api/price
+[2026-02-28T21:20:14.184Z] GET /api/peers
+[2026-02-28T21:20:14.201Z] GET /api/stats
+[2026-02-28T21:20:16.606Z] GET /api/peers
+[2026-02-28T21:20:16.625Z] GET /api/stats
+[2026-02-28T21:20:22.255Z] GET /api/stats
+[2026-02-28T21:20:22.258Z] GET /api/transactions/recent
+[2026-02-28T21:20:22.268Z] GET /api/peers
+[2026-02-28T21:20:22.348Z] GET /api/price
+[2026-02-28T21:20:22.359Z] GET /api/stats
+[2026-02-28T21:20:42.255Z] GET /api/stats
+[2026-02-28T21:20:42.256Z] GET /api/transactions/recent
+[2026-02-28T21:20:42.257Z] GET /api/peers
+[2026-02-28T21:20:42.269Z] GET /api/price
+[2026-02-28T21:20:42.276Z] GET /api/stats
+[2026-02-28T21:20:54.552Z] MLX price: $0.00000038 (-1.94%)
+[2026-02-28T21:21:02.254Z] GET /api/stats
+[2026-02-28T21:21:02.255Z] GET /api/transactions/recent
+[2026-02-28T21:21:02.256Z] GET /api/peers
+[2026-02-28T21:21:02.269Z] GET /api/price
+[2026-02-28T21:21:02.273Z] GET /api/stats
+[2026-02-28T21:21:22.254Z] GET /api/stats
+[2026-02-28T21:21:22.255Z] GET /api/transactions/recent
+[2026-02-28T21:21:22.256Z] GET /api/peers
+[2026-02-28T21:21:22.269Z] GET /api/price
+[2026-02-28T21:21:22.275Z] GET /api/stats
+[2026-02-28T21:21:42.254Z] GET /api/stats
+[2026-02-28T21:21:42.256Z] GET /api/transactions/recent
+[2026-02-28T21:21:42.258Z] GET /api/peers
+[2026-02-28T21:21:42.271Z] GET /api/price
+[2026-02-28T21:21:42.278Z] GET /api/stats
+[2026-02-28T21:21:54.227Z] MLX price: $0.00000038 (+0.66%)
+[2026-02-28T21:22:02.257Z] GET /api/stats
+[2026-02-28T21:22:02.258Z] GET /api/transactions/recent
+[2026-02-28T21:22:02.259Z] GET /api/peers
+[2026-02-28T21:22:02.277Z] GET /api/price
+[2026-02-28T21:22:02.282Z] GET /api/stats
+[2026-02-28T21:22:22.257Z] GET /api/stats
+[2026-02-28T21:22:22.258Z] GET /api/transactions/recent
+[2026-02-28T21:22:22.260Z] GET /api/peers
+[2026-02-28T21:22:22.280Z] GET /api/price
+[2026-02-28T21:22:22.283Z] GET /api/stats
+[2026-02-28T21:22:42.254Z] GET /api/stats
+[2026-02-28T21:22:42.255Z] GET /api/transactions/recent
+[2026-02-28T21:22:42.256Z] GET /api/peers
+[2026-02-28T21:22:42.285Z] GET /api/price
+[2026-02-28T21:22:42.297Z] GET /api/stats
+[2026-02-28T21:22:54.297Z] MLX price: $0.00000038 (+0.66%)

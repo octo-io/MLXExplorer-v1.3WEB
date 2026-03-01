@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Geolocation Test - MLX Explorer</title>
+    <style>
+        body { font-family: monospace; padding: 20px; background: #1a1a2e; color: #fff; }
+        button { padding: 10px 20px; margin: 10px 0; font-size: 16px; cursor: pointer; }
+        #result { margin-top: 20px; padding: 15px; background: #16213e; border-radius: 5px; max-height: 600px; overflow-y: auto; }
+        .success { color: #10b981; }
+        .error { color: #ef4444; }
+        .info { color: #60a5fa; }
+        .warning { color: #f59e0b; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { padding: 8px; text-align: left; border-bottom: 1px solid #8b5cf6; }
+        th { background: #8b5cf6; color: #fff; }
+        tr:hover { background: rgba(139, 92, 246, 0.1); }
+    </style>
+</head>
+<body>
+    <h1>🌍 Geolocation Test</h1>
+    <p>Testing peer geolocation data and world map rendering</p>
+    
+    <button onclick="testGeolocation()">Test Geolocation Data</button>
+    <button onclick="testMapData()">Test World Map TopoJSON</button>
+    <button onclick="showPeerTable()">Show All Peers</button>
+    
+    <div id="result"></div>
+    
+    <script>
+        const result = document.getElementById('result');
+        
+        function log(msg, type = 'info') {
+            const timestamp = new Date().toLocaleTimeString();
+            result.innerHTML += `<div class="${type}">[${timestamp}] ${msg}</div>`;
+        }
+        
+        async function testGeolocation() {
+            result.innerHTML = '';
+            log('Fetching peers from /api/peers...', 'info');
+            
+            try {
+                const response = await fetch('/api/peers');
+                if (!response.ok) {
+                    log('✗ Failed to fetch peers: ' + response.status, 'error');
+                    return;
+                }
+                
+                const peers = await response.json();
+                log('✓ Fetched ' + peers.length + ' peers', 'success');
+                
+                // Count geolocated peers
+                const withGeo = peers.filter(p => p.lat !== null && p.lon !== null);
+                const withoutGeo = peers.filter(p => p.lat === null || p.lon === null);
+                
+                log('✓ Peers with geolocation: ' + withGeo.length, 'success');
+                if (withoutGeo.length > 0) {
+                    log('⚠ Peers without geolocation: ' + withoutGeo.length, 'warning');
+                } else {
+                    log('✓ All peers have geolocation data!', 'success');
+                }
+                
+                // Count countries
+                const countries = {};
+                withGeo.forEach(p => {
+                    const country = p.country || 'Unknown';
+                    countries[country] = (countries[country] || 0) + 1;
+                });
+                
+                log('', 'info');
+                log('📊 Geographic Distribution:', 'info');
+                Object.entries(countries)
+                    .sort((a, b) => b[1] - a[1])
+                    .slice(0, 10)
+                    .forEach(([country, count]) => {
+                        const pct = ((count / withGeo.length) * 100).toFixed(1);
+                        log(`  ${country}: ${count} peers (${pct}%)`, 'info');
+                    });
+                
+                // Check coordinate ranges
+                const lats = withGeo.map(p => p.lat);
+                const lons = withGeo.map(p => p.lon);
+                log('', 'info');
+                log('📍 Coordinate Ranges:', 'info');
+                log(`  Latitude: ${Math.min(...lats).toFixed(2)} to ${Math.max(...lats).toFixed(2)}`, 'info');
+                log(`  Longitude: ${Math.min(...lons).toFixed(2)} to ${Math.max(...lons).toFixed(2)}`, 'info');
+                
+                // Sample peers
+                log('', 'info');
+                log('📌 Sample Peers:', 'info');
+                withGeo.slice(0, 5).forEach(p => {
+                    log(`  ${p.id.substring(0, 20)}... - ${p.city || 'N/A'}, ${p.country || 'N/A'} (${p.lat.toFixed(4)}, ${p.lon.toFixed(4)})`, 'info');
+                });
+                
+            } catch (error) {
+                log('✗ Error: ' + error.message, 'error');
+            }
+        }
+        
+        async function testMapData() {
+            result.innerHTML = '';
+            log('Testing world map TopoJSON loading...', 'info');
+            
+            try {
+                const topoUrl = 'https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json';
+                log('Fetching: ' + topoUrl, 'info');
+                
+                const response = await fetch(topoUrl);
+                if (!response.ok) {
+                    log('✗ Failed to load TopoJSON: ' + response.status, 'error');
+                    return;
+                }
+                
+                const worldData = await response.json();
+                log('✓ TopoJSON loaded successfully', 'success');
+                
+                // Check if topojson library is available
+                if (typeof topojson === 'undefined') {
+                    log('⚠ TopoJSON library not loaded. Loading now...', 'warning');
+                    const script = document.createElement('script');
+                    script.src = 'https://cdn.jsdelivr.net/npm/topojson@3';
+                    script.onload = () => log('✓ TopoJSON library loaded', 'success');
+                    document.head.appendChild(script);
+                } else {
+                    log('✓ TopoJSON library available', 'success');
+                }
+                
+                log('', 'info');
+                log('World Data Structure:', 'info');
+                log('  Type: ' + worldData.type, 'info');
+                log('  Objects: ' + Object.keys(worldData.objects).join(', '), 'info');
+                log('  Countries available: ' + (worldData.objects.countries ? 'Yes' : 'No'), 'success');
+                
+            } catch (error) {
+                log('✗ Error: ' + error.message, 'error');
+            }
+        }
+        
+        async function showPeerTable() {
+            result.innerHTML = '';
+            log('Loading peer table...', 'info');
+            
+            try {
+                const response = await fetch('/api/peers');
+                const peers = await response.json();
+                
+                const withGeo = peers.filter(p => p.lat !== null && p.lon !== null);
+                
+                result.innerHTML += '<table>';
+                result.innerHTML += '<thead><tr><th>Node ID</th><th>City</th><th>Country</th><th>Latitude</th><th>Longitude</th><th>Status</th></tr></thead>';
+                result.innerHTML += '<tbody>';
+                
+                withGeo.forEach(p => {
+                    const status = p.status === 1 ? '<span style="color:#10b981">●</span>' : '<span style="color:#60a5fa">●</span>';
+                    result.innerHTML += `<tr>
+                        <td>${p.id.substring(0, 25)}...</td>
+                        <td>${p.city || 'N/A'}</td>
+                        <td>${p.country || 'N/A'}</td>
+                        <td>${p.lat.toFixed(4)}</td>
+                        <td>${p.lon.toFixed(4)}</td>
+                        <td>${status}</td>
+                    </tr>`;
+                });
+                
+                result.innerHTML += '</tbody></table>';
+                
+            } catch (error) {
+                log('✗ Error: ' + error.message, 'error');
+            }
+        }
+    </script>
+    
+    <!-- Load TopoJSON library -->
+    <script src="https://cdn.jsdelivr.net/npm/topojson@3"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Millix Explorer</title>
+    <link rel="icon" type="image/png" href="millix-icon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="millix-icon.png" alt="Millix" class="logo-icon">
+            <div class="logo-text">
+                <h1>Millix Explorer</h1>
+                <p class="subtitle">Real-time Directed Acyclic Graph Visualization</p>
+            </div>
+        </div>
+        <div class="network-stats">
+            <div class="stat-card stat-clickable active" id="stat-peers" data-viz="peers">
+                <span class="stat-label">Peers</span>
+                <span class="stat-value" id="node-count">-</span>
+            </div>
+            <div class="stat-card stat-clickable" id="stat-wallet-tx" data-viz="dag">
+                <span class="stat-label">Node Txns</span>
+                <span class="stat-value" id="tx-count">-</span>
+            </div>
+            <div class="stat-card stat-clickable" id="stat-network-tx" data-viz="dag">
+                <span class="stat-label">Network Txns</span>
+                <span class="stat-value" id="network-tx-count">-</span>
+            </div>
+            <div class="stat-card stat-clickable" id="stat-price" data-viz="chart">
+                <img src="millix-icon.png" alt="MLX" class="stat-icon">
+                <div class="stat-content">
+                    <span class="stat-label">MLX Price (USD)</span>
+                    <span class="stat-value" id="mlx-price">-</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="sidebar">
+            <div class="search-panel">
+                <h3>Search</h3>
+                <input type="text" id="search-input" placeholder="Transaction ID or Address" />
+                <button id="search-btn">Search</button>
+            </div>
+
+            <div class="filter-panel">
+                <h3>Filters</h3>
+                <label>
+                    <input type="checkbox" id="filter-recent" checked /> Show Recent (10 min)
+                </label>
+                <label>
+                    <input type="checkbox" id="filter-hibernating" checked /> Show Hibernating
+                </label>
+                <label>
+                    Time Range:
+                    <select id="time-range">
+                        <option value="10">10 minutes</option>
+                        <option value="60">1 hour</option>
+                        <option value="360">6 hours</option>
+                        <option value="1440">24 hours</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="live-feed">
+                <h3>Live Transactions</h3>
+                <div id="transaction-feed"></div>
+            </div>
+        </div>
+
+        <div class="visualization-area">
+            <div class="controls">
+                <button id="zoom-in">+</button>
+                <button id="zoom-out">-</button>
+                <button id="reset-view">Reset</button>
+                <button id="toggle-labels">Labels</button>
+                <button id="toggle-3d">2D/MAP</button>
+                <button id="toggle-mode" class="mode-live">LIVE</button>
+            </div>
+            <div id="dag-canvas"></div>
+            <div class="legend">
+                <div class="legend-item">
+                    <span class="legend-color" style="background: #10b981; box-shadow: 0 0 8px rgba(16, 185, 129, 0.4);"></span>
+                    <span>Confirmed</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color" style="background: #c084fc; box-shadow: 0 0 8px rgba(192, 132, 252, 0.4);"></span>
+                    <span>Pending</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color" style="background: #60a5fa; box-shadow: 0 0 8px rgba(96, 165, 250, 0.4);"></span>
+                    <span>Hibernating</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="details-panel" id="details-panel">
+            <button class="close-btn" id="close-details">&times;</button>
+            <h3>Transaction Details</h3>
+            <div id="transaction-details">
+                <p class="placeholder">Select a transaction to view details</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Data updates every 20 seconds | Millix DAG Explorer v1.3</p>
+    </div>
+
+    <!-- External Libraries -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/topojson@3"></script>
+    
+    <!-- Application Modules -->
+    <script src="js/config.js?v=8"></script>
+    <script src="js/live-data.js?v=5"></script>
+    <script src="js/api.js?v=8"></script>
+    <script src="js/visualization.js?v=8"></script>
+    <script src="js/transactions.js?v=6"></script>
+    <script src="js/network-stats.js?v=9"></script>
+    <script src="js/app.js?v=7"></script>
+</body>
+</html>

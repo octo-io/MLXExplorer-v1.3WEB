@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test MLX Price via CORS Proxy</title>
+    <style>
+        body { font-family: monospace; padding: 20px; background: #1a1a2e; color: #fff; }
+        button { padding: 10px 20px; margin: 10px 0; font-size: 16px; cursor: pointer; }
+        #result { margin-top: 20px; padding: 15px; background: #16213e; border-radius: 5px; }
+        .success { color: #10b981; }
+        .error { color: #ef4444; }
+        .info { color: #60a5fa; }
+    </style>
+</head>
+<body>
+    <h1>MLX Price Fetching Test</h1>
+    <p>Testing price fetch via CORS proxy (for static hosting)</p>
+    
+    <button onclick="testCorsProxy()">Test CORS Proxy</button>
+    <button onclick="testServerless()">Test Serverless Endpoints</button>
+    <button onclick="testServer()">Test Local Server</button>
+    
+    <div id="result"></div>
+    
+    <script>
+        const result = document.getElementById('result');
+        
+        function log(msg, type = 'info') {
+            const timestamp = new Date().toLocaleTimeString();
+            result.innerHTML += `<div class="${type}">[${timestamp}] ${msg}</div>`;
+        }
+        
+        function parseFiatleakPrice(html) {
+            try {
+                const match = html.match(/"currency_ticker_1":"mlx"[\s\S]{0,600}?"exchange_name":"fiatleak"[\s\S]{0,600}?"price":([0-9.e-]+),"price_previous":([0-9.e-]+)[\s\S]{0,200}?"delta_percent":(-?[0-9.e-]+)/);
+                
+                if (match) {
+                    return {
+                        price: parseFloat(match[1]),
+                        change: parseFloat(match[3])
+                    };
+                }
+            } catch (e) {
+                log('Parse error: ' + e.message, 'error');
+            }
+            return { price: 0, change: 0 };
+        }
+        
+        async function testCorsProxy() {
+            result.innerHTML = '';
+            log('Testing CORS proxy (allOrigins.win)...', 'info');
+            
+            try {
+                const corsProxy = 'https://api.allorigins.win/raw?url=';
+                const targetUrl = encodeURIComponent('https://fiatleak.com/mlx');
+                
+                log('Fetching: ' + corsProxy + targetUrl.substring(0, 50) + '...', 'info');
+                
+                const response = await fetch(corsProxy + targetUrl, {
+                    headers: { 'Accept': 'text/html' }
+                });
+                
+                log('Response status: ' + response.status, response.ok ? 'success' : 'error');
+                
+                if (response.ok) {
+                    const html = await response.text();
+                    log('HTML length: ' + html.length + ' bytes', 'success');
+                    
+                    const priceData = parseFiatleakPrice(html);
+                    
+                    if (priceData.price > 0) {
+                        log('✓ MLX Price: $' + priceData.price.toFixed(9), 'success');
+                        log('✓ Change: ' + (priceData.change * 100).toFixed(2) + '%', 'success');
+                    } else {
+                        log('✗ Failed to parse price from HTML', 'error');
+                    }
+                }
+            } catch (error) {
+                log('✗ Error: ' + error.message, 'error');
+            }
+        }
+        
+        async function testServerless() {
+            result.innerHTML = '';
+            const endpoints = [
+                '/.netlify/functions/price',
+                '/api/price'
+            ];
+            
+            for (const endpoint of endpoints) {
+                log('Testing: ' + endpoint, 'info');
+                try {
+                    const response = await fetch(endpoint, {
+                        headers: { 'Accept': 'application/json' }
+                    });
+                    
+                    log('Status: ' + response.status + ' ' + response.statusText, 
+                        response.ok ? 'success' : 'error');
+                    
+                    const contentType = response.headers.get('content-type');
+                    log('Content-Type: ' + contentType, 'info');
+                    
+                    if (response.ok && contentType?.includes('application/json')) {
+                        const data = await response.json();
+                        log('✓ Price: $' + data.price, 'success');
+                        log('✓ Source: ' + data.source, 'success');
+                    }
+                } catch (error) {
+                    log('✗ Error: ' + error.message, 'error');
+                }
+                log('---', 'info');
+            }
+        }
+        
+        async function testServer() {
+            result.innerHTML = '';
+            log('Testing local Node.js server...', 'info');
+            
+            try {
+                const response = await fetch('/api/price');
+                log('Status: ' + response.status, response.ok ? 'success' : 'error');
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    log('✓ Price: $' + data.price, 'success');
+                    log('✓ Change: ' + (data.change * 100).toFixed(2) + '%', 'success');
+                    log('✓ Source: ' + data.source, 'success');
+                    log('✓ History points: ' + data.history.length, 'success');
+                }
+            } catch (error) {
+                log('✗ Error: ' + error.message, 'error');
+            }
+        }
+    </script>
+</body>
+</html>
